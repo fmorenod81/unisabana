@@ -1,8 +1,17 @@
 ## README.md
 
-Links for Unisabana Courses - 2025 - 1
+### Personal Info
+
+![email](./img/email.png)[email](mailto:francisco.moreno2@unisabana.edu.co)
+
+![Linkedin](./img/linkedin.png)[Linkedin](http://www.linkedin.com/in/fmorenod)
+
+### Courses
 
 ![Current Courses](./img/current_course.png)  **Current Courses**:
+
+
+![Past Courses](./img/old_courses.png)  **Inactive Courses**:
 
 2025 - 2 / **[Undergraduate - Ing. Informática]** Solutions Architect - SAA-C03 ![Mandatory](./img/book.png)[7 AM - Cod: 5123 and 10 AM - Cod: 3358 and 5123](./saa-c03_20252.md)
 
@@ -16,8 +25,4 @@ Links for Unisabana Courses - 2025 - 1
 
 2025 - 2 / **[Undergraduate - Ing. Informática]** AI Practitioner - AIF-C01 ![Mandatory](./img/ppt.png)[PDF](./AWS_AIF_C01_15112025.pdf)
 
-![Inactive Courses](./img/old_courses.png)  **Inactive Courses**:
-
 2025 - 1 / **[Undergraduate - Ing. Informática]** Solutions Architect ![Mandatory](./img/book.png)[7 AM - Cod: 3342](./saa-c03_20251_7am.md)
-
-fmorenod@gmail.com
