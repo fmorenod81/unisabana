@@ -10,6 +10,9 @@
 
 ![Current Courses](./img/current_course.png)  **Current Courses**:
 
+2026 - 1 / **[Undergraduate - Ing. Informática]** Solutions Architect - SAA-C03 ![Mandatory](./img/book.png)[TBD](./saa-c03_20252.md)
+
+2026 - TBD / **[Postgraduate - Maestria en Arquitectura de Software ]** Arquitectura de Software II ![Mandatory](./img/book.png)[TBD](./softarch2_20262.md)
 
 ![Past Courses](./img/old_courses.png)  **Inactive Courses**:
 
