@@ -2,7 +2,8 @@ softarch2_20262.md
 
 Seleccion de su problema asignado depende de la cantidad de estudiantes y del valor seleccionado al azar, puede darse por ultimo digito par o impar, o de otra manera, pero la condicion es que la cantidad de asignados a los problemas sean similares.
 
-2026 - Semestre 2, se aplicara Caso 1 y Caso 3.
+2026 - Semestre 2 Cohorte 1, se aplicara Caso 1 y Caso 3.
+2026 - Semestre 2 Cohorte 2, se aplicara Caso 2 y Caso 4.
 
 ## Caso 1
 
