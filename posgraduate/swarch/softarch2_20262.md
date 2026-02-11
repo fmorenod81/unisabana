@@ -1,11 +1,32 @@
 softarch2_20262.md
 
+- [Presentaciones](#presentaciones)
+- [Asignaciones](#asignaciones)
+    - [Caso 1](#caso-1)
+    - [Caso 2](#caso-2)
+    - [Caso 3](#caso-3)
+    - [Caso 4](#caso-4)
+
+## Presentaciones
+
+
+![Mandatory](../../img/ppt.png)[Modulo 1: Estilos y Patrones Arquitectonicos](./m1_Estilos_Patrones.pdf)
+
+![Mandatory](../../img/ppt.png)[Modulo 2: Microservicios](./m1_Estilos_Patrones.pdf)
+
+![Mandatory](../../img/ppt.png)[Modulo 3: Sistemas Distribuidos](./m1_Estilos_Patrones.pdf)
+
+![Mandatory](../../img/ppt.png)[Modulo 4: Liderazgo en Arquitectura](./m1_Estilos_Patrones.pdf)
+
+## Asignaciones
+
+
 Seleccion de su problema asignado depende de la cantidad de estudiantes y del valor seleccionado al azar, puede darse por ultimo digito par o impar, o de otra manera, pero la condicion es que la cantidad de asignados a los problemas sean similares.
 
 2026 - Semestre 2 Cohorte 1, se aplicara Caso 1 y Caso 3.
 2026 - Semestre 2 Cohorte 2, se aplicara Caso 2 y Caso 4.
 
-## Caso 1
+#### Caso 1
 
 Reserva de tiquetes aéreos en una fábrica de software: ventas, conformación de equipos remotos y eventos técnicos.
 
@@ -24,7 +45,7 @@ Dispositivo a usar: Pagina Web, movil con funcionalidad reducida.
 
 Extensibilidad: Sistema propio tipo PinBus, tiquetes baratos, aerolineas.
 
-## Caso 2
+#### Caso 2
 
 Sistema de recaudo para transporte masivo para Bogotá (Transmilenio/SITP).
 
@@ -40,7 +61,7 @@ Dispositivo a usar: Pagina Web.
 
 Extensibilidad: Sistema transporte municipal.
 
-## Caso 3
+#### Caso 3
 
 eCommerce estratégico de productos con alta demanda en hora nocturnas. Producto: Correo de la Noche.
 
@@ -56,6 +77,6 @@ Dispositivo a usar: Pagina Web, aplicacion movil, IM, llamadas.
 
 Extensibilidad: Servicio de medicinas frecuentes.
 
-## Caso 4
+#### Caso 4
 
 Plataforma de evaluacion de riesgo para personas naturales, tipo Addi o SisteCredito.
