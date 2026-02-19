@@ -15,13 +15,15 @@ softarch2_20262.md
   <summary><b>Presentaciones del Curso</b></summary>
   <br>
 
-![Mandatory](../../img/ppt.png)[Modulo 1: Estilos y Patrones Arquitectonicos](./m1_Estilos_Patrones.pdf)
+![Mandatory](../../img/ppt.png)[Modulo 0: Introduccion al Curso](./m0_Intro_To_Course.pdf)
 
-![Mandatory](../../img/ppt.png)[Modulo 2: Microservicios](./m1_Estilos_Patrones.pdf)
+![Mandatory](../../img/ppt.png)[Modulo 1: Estilos y Patrones Arquitectonicos](./m1_Tactics_Arch_Patterns_Arch_Styles.pdf)
 
-![Mandatory](../../img/ppt.png)[Modulo 3: Sistemas Distribuidos](./m1_Estilos_Patrones.pdf)
+![Mandatory](../../img/ppt.png)[Modulo 2: Microservicios](./m2_Microservices.pdf)
 
-![Mandatory](../../img/ppt.png)[Modulo 4: Liderazgo en Arquitectura](./m1_Estilos_Patrones.pdf)
+![Mandatory](../../img/ppt.png)[Modulo 3: Sistemas Distribuidos](./m3_Distributed_Systems.pdf)
+
+![Mandatory](../../img/ppt.png)[Modulo 4: Liderazgo en Arquitectura](./m4_Leadership_in_Architecture.pdf)
 
 </details>
 
@@ -138,13 +140,19 @@ TBD
   <summary><b>Caso A: Sistema de Validacion de Tarjetas en Transporte Masivo</b></summary>
   <br>
 
-En Bogota, existe un sistema de transporte que usa una tarjeta para realizar la validacion al ingresar al sistema de transporte. Se desea que se diseñe la plataforma de recaudo (recarga en dispositivos y validacion en barreras) para generar un minimo de fraude (evasion) al usar las tarjetas y que la experiencia al usuario sea excelente (Contractualmente -hipotetico- un malfuncionamiento obligacion abrir barreras sin validacion de manera ilimitada, y evaluado cada 10 minutos).
-Existen diferentes actores: Ciudadano, Subsidiado, Funcionario Operador Bus, Funcionario SITP, Servicio Emergencia (Policia TM, Cruz Roja), sistema aliado (Movilred, Efecty, PagaTodo), banco aliado, Operador de Movilidad (Empresa Transporte).
-Existen diferentes tarjetas: Anonima, Personalizada, Funcionario Operador Bus, Funcionario SITP, Servicio Emergencia.
+Ademas de la informacion visto en el caso anterior, vemos que el sistema de validacion de tarjetas tiene los siguientes valores:
 
-Funcionalidad a mostrar: Listas negras (tarjetas bloqueadas - robo o fraude), Listas blancas (funcionarios o servicio de emergencia), Validacion de usuario Normal.
+* Transacciones por hora: ~30,000
 
-Dispositivos a ejecutar acciones: Estacion con Fibra Optica y contigencia por microondas; y Buses usando 4G sin contigencia.
+* Transacciones por minuto: ~500
+
+* Transacciones por segundo (TPS): ~8-10 (en promedio constante durante esa hora).
+
+* Tarjetas perdidas o robadas anuales: 150,000 (aprox.)
+
+* Cantidad de Funcionarios (TM, Recaudo, Policia TM): 35,000
+
+Estos valores son obtenidos por GenAI, sin embargo, si puede encontrar la fuente mas fiable por favor referenciarla.
 
 </details>
 
@@ -157,7 +165,7 @@ TBD
 
 ### Liderazgo en Arquitectura
 
-Ideas para Architectural Katas, en tal caso que no quiera presentar de la empresa/industria en la que labora:
+La idea inicial es que realice el Architectural Kata y el ADR de la empresa o en la industria donde labora, recuerde que no puede entregar informacion sensible o algo que identifique univocamente su empresa. En caso contrario, aquie puede encontrar un listado de ideas para la Kata y el ADR por industria:
 
 2026 - Semestre 2 Cohorte 1, se aplicara Industrias i y iii
 
@@ -169,12 +177,11 @@ Ideas para Architectural Katas, en tal caso que no quiera presentar de la empres
   <summary><b>Industrias i: Salud</b></summary>
   <br>
 
-
-- Sistema de Citas medicas y diagnosticas
+- Sistema de solicitud de Citas medicas y diagnosticas
 
 - Entrega de resultados diagnosticos
 
-- Localizacion de especialistas
+- Localizacion de medicos y/o especialistas
 
 </details>
 
@@ -182,9 +189,9 @@ Ideas para Architectural Katas, en tal caso que no quiera presentar de la empres
   <summary><b>Industrias ii: Financieras</b></summary>
   <br>
 
-- Medios de pago alternativos
+- Medios de pago alternativos: Economia circular.
 
-- Inversion en Trading y Broker
+- Inversion en Trading y Broker para inversores persona natural y de bajo monto.
 
 </details>
 
@@ -194,7 +201,7 @@ Ideas para Architectural Katas, en tal caso que no quiera presentar de la empres
 
 - Mantenimiento de vehiculos particulares: lavado, revisiones, mantenimiento, SOAT, etc.
 
-- Reparacion Locativas.
+- Solicitud de Reparacion Locativas.
 
 </details>
 
@@ -203,7 +210,7 @@ Ideas para Architectural Katas, en tal caso que no quiera presentar de la empres
   <summary><b>Industrias iv: Gobierno</b></summary>
   <br>
 
-- Impuestos finca raiz: progresion, ahorro.
+- Impuestos finca raiz: prevision, ahorro.
 
 - Impuestos persona natural.
 
