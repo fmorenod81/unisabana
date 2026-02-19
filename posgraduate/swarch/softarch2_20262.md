@@ -8,8 +8,9 @@ softarch2_20262.md
     - [Diseño de base de datos no-relacionales](#diseño-de-base-de-datos-no-relacionales)
   - [Liderazgo en Arquitectura](#liderazgo-en-arquitectura)
     - [Ideas en industrias sugeridas](#ideas-en-industrias-sugeridas)
+- [Links Interesantes](#links-interesantes)
 
-## Presentaciones
+# Presentaciones
 
 <details>
   <summary><b>Presentaciones del Curso</b></summary>
@@ -27,11 +28,11 @@ softarch2_20262.md
 
 </details>
 
-## Asignaciones
+# Asignaciones
 
 Seleccion de su problema asignado depende de la cantidad de estudiantes y del valor seleccionado al azar, puede darse por ultimo digito de su documento de identificacion par o impar, o de otra manera, pero la condicion es que la cantidad de estudiantes asignados a los problemas sean similares.
 
-### Tacticas, Patrones Arquitectonicos y Estilos Arquitectonicos
+## Tacticas, Patrones Arquitectonicos y Estilos Arquitectonicos
 
 2026 - Semestre 2 Cohorte 1, se aplicara Caso 1 y Caso 3.
 
@@ -51,7 +52,7 @@ Seleccion de su problema asignado depende de la cantidad de estudiantes y del va
 
 </details>
 
-#### Plataformas asignadas
+### Plataformas asignadas
 
 <details>
   <summary><b>Caso 1: Tiquetes Aereos para la Fabrica de Software</b></summary>
@@ -128,13 +129,13 @@ Extensibilidad: Servicio de medicinas frecuentes.
 TBD
 </details>
 
-### Sistemas Distribuidos
+## Sistemas Distribuidos
 
 2026 - Semestre 2 Cohorte 1, se aplicara Caso A
 
 2026 - Semestre 2 Cohorte 2, se aplicara Caso B
 
-#### Diseño de base de datos no-relacionales
+### Diseño de base de datos no-relacionales
 
 <details>
   <summary><b>Caso A: Sistema de Validacion de Tarjetas en Transporte Masivo</b></summary>
@@ -163,7 +164,7 @@ Estos valores son obtenidos por GenAI, sin embargo, si puede encontrar la fuente
 TBD
 </details>
 
-### Liderazgo en Arquitectura
+## Liderazgo en Arquitectura
 
 La idea inicial es que realice el Architectural Kata y el ADR de la empresa o en la industria donde labora, recuerde que no puede entregar informacion sensible o algo que identifique univocamente su empresa. En caso contrario, aquie puede encontrar un listado de ideas para la Kata y el ADR por industria:
 
@@ -171,7 +172,7 @@ La idea inicial es que realice el Architectural Kata y el ADR de la empresa o en
 
 2026 - Semestre 2 Cohorte 2, se aplicara Industrias ii y iv
 
-#### Ideas en industrias sugeridas
+### Ideas en industrias sugeridas
 
 <details>
   <summary><b>Industrias i: Salud</b></summary>
@@ -215,3 +216,12 @@ La idea inicial es que realice el Architectural Kata y el ADR de la empresa o en
 - Impuestos persona natural.
 
 </details>
+
+# Links Interesantes
+
+[Techworld with Milan - Modular Monolith](https://newsletter.techworld-with-milan.com/p/what-is-a-modular-monolith)
+
+[Databricks - MapReduce](https://www.databricks.com/glossary/mapreduce)
+
+[Choosing the Right DynamoDB Partition Key, AWS Database Blog](https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/)
+
