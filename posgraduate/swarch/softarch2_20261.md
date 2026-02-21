@@ -66,10 +66,12 @@ Una empresa de outsorcing de personal tenia un alianza con una agencia de viajes
 
 El organigrama de la compañia estan clasificada en A, B y C (ascedente); y dentro de ella, estan en niveles de 1 a 5 (ascedente). Segun esta clasificacion esta las aprobaciones de viajes. Existen areas que tendrian un rol diferente como son: Finanzas y Auditoria.
 
-Los viajes de confirmacion de equipos (team building) pueden durar 1 semana, y pueden ser cobrados al cliente posteriormente. Los eventos tecnicos tienen una duracion de 1 a 3 dias, y el resto suelen ser de 3 a 4 dias.
+Los viajes de creacion de equipos (team building) pueden durar 1 semana, y pueden ser cobrados al cliente posteriormente. Los eventos tecnicos tienen una duracion de 1 a 3 dias, y el resto suelen ser de 3 a 4 dias.
 
 Son 60k empleados, con un estimado de empleados al año que realizan viajes 700, con un estimado de 5k viajes al año 2024. Crecimiento del 15% anual.
 Las personas suelen movilizarse usando transporte privado en las ciudades durante el viaje y suelen usar Uber/Cabify/InDrive. Se puede permitir subir la categoria dependiendo de la aprobacion.
+
+Se espera que la transaccion sea sincronica (<800ms, el P95) sin embargo, se podria optimizar  costo con las mismas condiciones de fecha y hora, pero con condiciones diferentes (i.e. Ejecutando una consulta posterior pero con categoria turista en vez de Primera Clase).
 
 Las operadores estan por pais y por categoria (transporte aereo y terrestre) y ofrecen un API que puede variar, en los metodos la exposicion de la oferta, como para la reserva. Existen campos obligatorios para cada  servicio, sin embargo, no estan estandarizados, ejemplo: Nombre completo, ó Nombres y Apellidos.
 
@@ -83,17 +85,21 @@ Extensibilidad: Sistema propio tipo PinBus, tiquetes baratos, aerolineas.
   <summary><b>Caso 2: Sistema de recaudo para transporte masivo para Bogotá (Transmilenio/SITP).</b></summary>
   <br>
 
-El rol del entrevistado sera el CTO de la compañia.
+El rol del entrevistado sera el CTO de la compañia de Recaudo.
 
 En Bogota, existe un sistema de transporte que usa una tarjeta para realizar la validacion al ingresar al sistema de transporte. Se desea que se diseñe la plataforma de recaudo (recarga en dispositivos y validacion en barreras) para generar un minimo de fraude (evasion) al usar las tarjetas y que la experiencia al usuario sea excelente (Contractualmente -hipotetico- un malfuncionamiento obligacion abrir barreras sin validacion de manera ilimitada, y evaluado cada 10 minutos).
 Existen diferentes actores: Ciudadano, Subsidiado, Funcionario Operador Bus, Funcionario SITP, Servicio Emergencia (Policia TM, Cruz Roja), sistema aliado (Movilred, Efecty, PagaTodo), banco aliado, Operador de Movilidad (Empresa Transporte).
 Existen diferentes tarjetas: Anonima, Personalizada, Funcionario Operador Bus, Funcionario SITP, Servicio Emergencia.
 
-Funcionalidad a mostrar: Listas negras (tarjetas bloqueadas - robo o fraude), Listas blancas (funcionarios o servicio de emergencia).
+Se estima que una transaccion de validacion debe ser menor a 800ms (P95). Las estaciones y buses deberan tener contigencia. El sistema debera tener DRP en una region/lugar en un pais diferente al principal. El año 2025 fueron 3.3M transacciones al dia.
 
-La volumetria y parametros (cantidad de estaciones, buses por operador) son de dominio publico. Anexar los enlaces a esos recursos.
+Las estaciones deberan tener disponibles en las horas de operacion (Estaciones 4 am - 10 pm, buses 4:30 am - 11 pm). Contractualmente -hipotetico- 99.9% de disponibilidad, sin embargo puede existir demoras en el registro en las comunicaciones posteriores (un bus que pierde comunicacion durante la noche o mantenimiento).
 
-Dispositivo a usar: Pagina Web.
+Funcionalidad a mostrar: Validacion -o no- de tarjetas en Listas negras (tarjetas bloqueadas - robo o fraude), Listas blancas (funcionarios o servicio de emergencia), usuarios ciudadanos (Anonimos y Personlizadas).
+
+La volumetria y parametros (cantidad de estaciones, buses por operador) son de dominio publico. Incluso algunos valores estan en el caso de Sistemas Distribuidos aqui. Anexar los enlaces a esos recursos.
+
+Dispositivos a usar: Dispositivos de validacion en estacion, buses, Recursos Nube, Consumidor funcionario Ente Gestor.
 
 Extensibilidad: Sistema transporte municipal.
 
@@ -114,7 +120,10 @@ Los metodos de pago podrian diferir para aumentar fidelizacion por tipo de usuar
 El precio del usuario frecuente al mes era bajo, lo que permitiria su popularizacion. Se puede segmentar el usuario frecuente en edad, areas de servicio e historial de consumos.
 Tenian un sistema que permitia localizar al usuario o se le solicitaba que diera direccion exacta; y se podria usar su localizacion para asignar el servicio a la licoreria o bodega oculta (diferente servicios, ejemplo, conjunto vallenato, etc) mas cercana basado en la solicitud.
 Las relaciones con licoreras o bodegas ocultas debian poder generar: vinculacion, desvinculacion, geolocalizacion (real o fija), inventario disponible en tiempo casi-real, asignacion de servicio, periodicidad de pago, promociones, y calificacion del usuario final.
+
 Se estima 2M como el universo de usuarios finales en Bogota, con 100k usuarios frecuentes al primer año, y un consumo quincenal de 75k por usuario frecuente. Los momentos de alto consumo serian jueves a domingo entre 9 pm a 4 am.
+
+Se estima que una transaccion con informacion completa debera ejecutarse menos a 3 segundos (P90). Se puede establecer un DRP flexible, a excepciones de redudancia de datos (compras recientes < 2 dias).
 
 Dispositivo a usar: Pagina Web, aplicacion movil, IM, llamadas.
 
