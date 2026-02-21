@@ -12,7 +12,9 @@
 
 2026 - 1 / **[Undergraduate - Ing. Informática]** Solutions Architect - SAA-C03 ![Mandatory](./img/book.png)[7 AM - Cod: 7241](./undergraduate/saa-c03_20261.md)
 
-2026 - 2 / **[Postgraduate - Maestria en Arquitectura de Software ]** Arquitectura de Software II ![Mandatory](./img/book.png)[TBD](./posgraduate/swarch/softarch2_20262.md)
+2026 - 1 / **[Postgraduate - Maestria en Arquitectura de Software ]** Arquitecturas en la Nube ![Mandatory](./img/book.png)[5 PM - Cod: 7464](./posgraduate/cloudarch/cloudarch_20261.md)
+
+2026 - 2 / **[Postgraduate - Maestria en Arquitectura de Software ]** Arquitectura de Software II ![Mandatory](./img/book.png)[TBD](./posgraduate/swarch/softarch2_20261.md)
 
 ![Past Courses](./img/old_courses.png)  **Inactive Courses**:
 
