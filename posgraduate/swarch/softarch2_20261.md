@@ -1,5 +1,6 @@
 softarch2_20262.md
 
+- [MindMap](#mindmap)
 - [Presentaciones](#presentaciones)
 - [Asignaciones](#asignaciones)
   - [Tacticas, Patrones Arquitectonicos y Estilos Arquitectonicos](#tacticas-patrones-arquitectonicos-y-estilos-arquitectonicos)
@@ -9,6 +10,10 @@ softarch2_20262.md
   - [Liderazgo en Arquitectura](#liderazgo-en-arquitectura)
     - [Ideas en industrias sugeridas](#ideas-en-industrias-sugeridas)
 - [Links Interesantes](#links-interesantes)
+
+# MindMap
+
+<iframe src="https://xmind.app/embed/pLXUrD" width="900px" height="540px" frameborder="0" scrolling="no"></iframe>
 
 # Presentaciones
 
