@@ -13,7 +13,7 @@ softarch2_20262.md
 
 # MindMap
 
-<iframe src="https://xmind.app/embed/pLXUrD" width="900px" height="540px" frameborder="0" scrolling="no"></iframe>
+![Mandatory](../../img/mindmap.png)[Mind Map](https://xmind.app/embed/pLXUrD)
 
 # Presentaciones
 
@@ -23,13 +23,13 @@ softarch2_20262.md
 
 ![Mandatory](../../img/ppt.png)[Modulo 0: Introduccion al Curso](./m0_Intro_To_Course.pdf)
 
-![Mandatory](../../img/ppt.png)[Modulo 1: Estilos y Patrones Arquitectonicos](./m1_Tactics_Arch_Patterns_Arch_Styles.pdf)
+![Mandatory](../../img/ppt.png)[Modulo 1: Estilos y Patrones Arquitectonicos](./m1_Arch_Styles_Patterns.pdf)
 
 ![Mandatory](../../img/ppt.png)[Modulo 2: Microservicios](./m2_Microservices.pdf)
 
 ![Mandatory](../../img/ppt.png)[Modulo 3: Sistemas Distribuidos](./m3_Distributed_Systems.pdf)
 
-![Mandatory](../../img/ppt.png)[Modulo 4: Liderazgo en Arquitectura](./m4_Leadership_in_Architecture.pdf)
+![Mandatory](../../img/ppt.png)[Modulo 4: Liderazgo en Arquitectura](./m4_Leadership.pdf)
 
 </details>
 
