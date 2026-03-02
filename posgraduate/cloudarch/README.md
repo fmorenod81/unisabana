@@ -1,8 +1,27 @@
 cloudarch_20261.md
 
 - [Fechas](#fechas)
+- [Mindmap](#mindmap)
 - [Presentaciones](#presentaciones)
 - [Links Interesantes](#links-interesantes)
+  - [Module 1 - Welcome Instructor](#module-1---welcome-instructor)
+  - [Module 2 - Introducing Cloud Architecting](#module-2---introducing-cloud-architecting)
+  - [Module 3 - Securing Access](#module-3---securing-access)
+  - [Module 4 - Adding a Storage Layer with Amazon S3](#module-4---adding-a-storage-layer-with-amazon-s3)
+    - [Code Assistant](#code-assistant)
+  - [Module 5 - Adding a Compute Layer Using Amazon EC2](#module-5---adding-a-compute-layer-using-amazon-ec2)
+  - [Module 6 - Adding a Database Layer](#module-6---adding-a-database-layer)
+  - [Module 7 - Creating a Networking Environment](#module-7---creating-a-networking-environment)
+  - [Module 8 - Connecting Networks](#module-8---connecting-networks)
+  - [Module 9 - Securing User, Application, and Data Access](#module-9---securing-user-application-and-data-access)
+  - [Module 10 - Implementing Monitoring, Elasticity, and High Availability](#module-10---implementing-monitoring-elasticity-and-high-availability)
+  - [Module 11 - Automating Your Architecture](#module-11---automating-your-architecture)
+  - [Module 12 - Caching Content](#module-12---caching-content)
+  - [Module 13 - Building Decoupled Architectures](#module-13---building-decoupled-architectures)
+  - [Module 14 - Building Serverless Architectures and Microservices](#module-14---building-serverless-architectures-and-microservices)
+  - [Module 15 - Data Engineering Patterns](#module-15---data-engineering-patterns)
+  - [Module 16 - Planning for Disaster](#module-16---planning-for-disaster)
+  - [Module 17 - BridgingToCertification](#module-17---bridgingtocertification)
 
 # Fechas
 
@@ -17,6 +36,10 @@ Fecha|Modulos|Tema|Corte?|
 22-Apr| Libre  |||
 29-Apr|15,16,17| Data Engineering Patterns, Planning for Disaster; Bridging to Certification|AWS Academy: Mod 9-17|
 
+# Mindmap
+
+![Mandatory](../img/ppt.png)[XMind - This URL Can change](https://xmind.app/embed/HKtN3V)
+
 # Presentaciones
 
 <details>
@@ -29,4 +52,510 @@ Fecha|Modulos|Tema|Corte?|
 
 # Links Interesantes
 
-[Links de este Curso Complementarios](./saa-c03_20261.md)
+## Module 1 - Welcome Instructor
+
+[Certification Badges *Instructor* AWS](https://www.credly.com/users/francisco-javier-moreno-diaz)
+
+[Study Badges *Instructor* AWS](https://app.pluralsight.com/profile/fmorenod)
+
+![Mandatory](../../img/ppt.png)[Personal Thoughs - PDF](./Personal_Thoughs_31012026.pdf)
+
+![Mandatory](../../img/ppt.png)[Additional Resources - PDF](./AWS_SAA_C03_Additional_Resources_31012026.pdf)
+
+![Mandatory](../../img/book.png)[AWS Certified Solutions Architect Study Guide with 900 Practice Test Questions, 4th Edition](https://learning-oreilly-com.ez.unisabana.edu.co/library/view/aws-certified-solutions/9781119982623/)
+
+![Mandatory](../../img/video.png)[Skill Builder - Offer for 12 months](https://explore.skillbuilder.aws/learn/signin)
+
+## Module 2 - Introducing Cloud Architecting
+
+![Mandatory](../../img/mandatory.png)[AWS SAA - C03 Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
+
+![Mandatory](../../img/mandatory.png)[Diferencias entre AWS Academy (Este Curso) y AWS Educate](https://aws.amazon.com/es/training/awsacademy/faq/)
+
+![Mandatory](../../img/mandatory.png)[Region Selection](https://aws.amazon.com/blogs/architecture/what-to-consider-when-selecting-a-region-for-your-workloads/)
+
+[Well-Architected Framework - I](https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=desc)
+
+[Well-Architected Framework - II](https://www.wellarchitectedlabs.com/)
+
+[¿Por qué el profesional T-Shaped es el futuro de su organización?](https://www.aluracursos.com/blog/profesional-t-shaped-futuro-de-su-organizacion)
+
+[Want to Influence the Future? Be “E-Shaped”](https://www.rollingstone.com/culture-council/articles/want-influence-the-future-be-e-shaped-1235002129/)
+
+*Otros Ejemplos de Well-Architected Framework*
+
+- [Azure](https://learn.microsoft.com/en-us/azure/well-architected/)
+
+- [GCP](https://cloud.google.com/architecture/framework)
+
+- [OCI](https://docs.oracle.com/en/solutions/oci-best-practices/index.html)
+
+[AWS Cloud Adoption Framework AWS CAF](https://aws.amazon.com/cloud-adoption-framework/)
+
+[AWS Certification Pathway](https://d1.awsstatic.com/training-and-certification/docs/AWS_certification_paths.pdf)
+
+![Mandatory](../../img/mandatory.png)[AWS Local Zones locations](https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/?nc1=h_ls)
+
+[How are Local Zones different from Availability Zones?](https://aws.amazon.com/about-aws/global-infrastructure/localzones/faqs/)
+
+[AWS Local Zones vs Edge Locations (No Oficial) - I](https://stackoverflow.com/questions/70908862/aws-local-zone-vs-edge-locations)
+
+## Module 3 - Securing Access
+
+![Mandatory](../../img/mandatory.png)[Security Pillar - AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_enforce_mechanisms.html)
+
+![Mandatory](../../img/mandatory.png)[AWS IAM Access Analyzer](https://aws.amazon.com/iam/access-analyzer/)
+
+[Confidential Computing](https://www.fortinet.com/resources/cyberglossary/confidential-computing)
+
+[AWS Confidential Computing](https://aws.amazon.com/confidential-computing/)
+
+[Client-Side Data Encryption for Amazon S3 Using the AWS SDK for Java](https://aws.amazon.com/blogs/aws/client-side-data-encryption-using-the-aws-sdk-for-java/)
+
+![Mandatory](../../img/mandatory.png)[Differences between Entity (AuthN) and Identity (AuthZ)](https://stackoverflow.com/questions/65501903/difference-between-aws-iam-identity-and-entity)
+
+[IAM on Wikipedia](https://en.wikipedia.org/wiki/Identity_and_access_management)
+
+![Mandatory](../../img/mandatory.png)[BEST TUTORIAL FOR ROLES: How do I assume an IAM role using the AWS CLI?](https://repost.aws/knowledge-center/iam-assume-role-cli)
+
+![Mandatory](../../img/mandatory.png)[Types of AWS Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_managed-vs-inline.html)
+
+[Use instance profiles from "Methods to assume a role"](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html)
+
+[No-Official Page - AWS Identity Federation Explained](https://youtu.be/Uv_bztUZfsg?t=121)
+
+![Mandatory](../../img/mandatory.png)[Identity federation in AWS](https://aws.amazon.com/identity/federation/)
+
+[Identity providers and federation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers.html)
+
+![Mandatory](../../img/mandatory.png)[IAM tutorial: Delegate access across AWS accounts using IAM roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
+
+## Module 4 - Adding a Storage Layer with Amazon S3
+
+![Mandatory](../../img/mandatory.png)[Uploading and copying objects using multipart upload in Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html)
+
+[Demo S3 Transfer Acceleration](https://awsacademy.instructure.com/courses/108774/modules/items/10191003)
+
+[S3 Express One Zone vs S3 Standard Workshop](https://catalog.workshops.aws/comparing-s3-standard-and-s3-express-one-zone-storage-classes/en-US)
+
+![Mandatory](../../img/mandatory.png)[Strong Consistency](https://aws.amazon.com/s3/consistency/)
+
+[Amazon S3 Access Points](https://aws.amazon.com/s3/features/access-points/)
+
+[Block device mappings for volumes on Amazon EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/block-device-mapping-concepts.html)
+
+### Code Assistant
+
+[Gemini on VSCode](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/q-in-IDE-setup.html)
+
+[Amazon Q on VSCode](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/q-in-IDE-setup.html)
+
+[Tutorial](https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html)
+
+Suggested Prompt:
+
+"Crear codigo en AWS CLI para Windows 11 para crear un bucket publico y copie mis archivos HTML a este bucket creado. Dame la URL publica para poder acceder a esta pagina. Crea variables para el nombre aleatorio del bucket"
+
+## Module 5 - Adding a Compute Layer Using Amazon EC2
+
+[Compute for any workload](https://aws.amazon.com/products/compute/)
+
+[Amazon EBS-optimized instance types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-optimized.html)
+
+![Mandatory](../../img/mandatory.png)[Instance store temporary block storage for EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html)
+
+![Mandatory](../../img/mandatory.png)[Amazon EC2 instance state changes](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html)
+
+[Billing for stopped instance](https://aws.amazon.com/ec2/faqs/#Billing_and_purchase_options)
+
+[AMI Creation: From instance](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/tkv-create-ami-from-instance.html)
+
+[AMI Creation: From Image Builder](https://docs.aws.amazon.com/imagebuilder/latest/userguide/what-is-image-builder.html)
+
+![Mandatory](../../img/mandatory.png)[Amazon EC2 instance type naming conventions](https://docs.aws.amazon.com/ec2/latest/instancetypes/instance-type-names.html)
+
+![Mandatory](../../img/mandatory.png)[Instance Explorer](https://aws.amazon.com/ec2/instance-explorer/)
+
+[AWS Compute Optimizer](https://aws.amazon.com/compute-optimizer/)
+
+[EC2 Instances with Instance Store](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-store-volumes.html)
+
+![Mandatory](../../img/mandatory.png)[EBS types](https://aws.amazon.com/ebs/volume-types/)
+
+[A Decade of Ever-Increasing Provisioned IOPS for Amazon EBS](https://aws.amazon.com/blogs/aws/a-decade-of-ever-increasing-provisioned-iops-for-amazon-ebs/)
+
+[Attach an EBS volume to multiple EC2 instances using Multi-Attach](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volumes-multi.html)
+
+![Mandatory](../../img/mandatory.png)[Depreceated: OpsWorks for Puppet and Chef - En Español](https://docs.aws.amazon.com/es_es/opsworks/latest/userguide/welcome.html)
+
+[Creating or deleting mount targets in a VPC: If the VPC has multiple subnets in an Availability Zone, you can create a mount target in only one of those subnets. All EC2 instances in the Availability Zone can share the single mount target](https://docs.aws.amazon.com/efs/latest/ug/manage-fs-access-create-delete-mount-targets.html)
+
+[The History of Pets vs Cattle and How to Use the Analogy Properly](https://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/)
+
+[Placement strategies for your placement groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-strategies.html)
+
+[Explicacion de Spot Instances en un Bar](https://youtu.be/mgWZls55ATs?t=17)
+
+## Module 6 - Adding a Database Layer
+
+![Mandatory](../../img/mandatory.png)[RDS Official Page](https://aws.amazon.com/rds/)
+
+[RDS Official Page - Features](https://aws.amazon.com/rds/features/)
+
+![Mandatory](../../img/mandatory.png)[What’s the difference between an ACID and a BASE database?](https://aws.amazon.com/compare/the-difference-between-acid-and-base-database/)
+
+[CAP Theorem](https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/cap-theorem.html)
+
+![Mandatory](../../img/mandatory.png)[Scaling Your Amazon RDS Instance Vertically and Horizontally](https://aws.amazon.com/blogs/database/scaling-your-amazon-rds-instance-vertically-and-horizontally/)
+
+![Mandatory](../../img/mandatory.png)[Amazon RDS FAQs - How many databases per instances?](https://aws.amazon.com/rds/faqs/#topic-0)
+
+[Managing capacity automatically with Amazon RDS storage autoscaling](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PIOPS.Autoscaling.html)
+
+![Mandatory](../../img/mandatory.png)[Getting started with RDS Proxy](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy-setup.html)
+
+![Mandatory](../../img/mandatory.png)[Amazon RDS Read Replicas: Aurora 15, RDS 5 ](https://aws.amazon.com/rds/features/read-replicas/)
+
+![Mandatory](../../img/mandatory.png)[Read replicas in a Multi-AZ deployment](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html#USER_ReadRepl.Overview.maz-replicas)
+
+![Mandatory](../../img/mandatory.png)[CQRS pattern - En Español](https://docs.aws.amazon.com/es_es/prescriptive-guidance/latest/modernization-data-persistence/cqrs-pattern.html)
+
+[Shared-database-per-service pattern - En Español](https://docs.aws.amazon.com/es_es/prescriptive-guidance/latest/modernization-data-persistence/shared-database.html)
+
+[Database-per-service pattern - En Español](https://docs.aws.amazon.com/es_es/prescriptive-guidance/latest/modernization-data-persistence/database-per-service.html)
+
+[Identity and access management for Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAM.html)
+
+![Mandatory](../../img/mandatory.png)[IAM database authentication for MariaDB, MySQL, and PostgreSQL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.html)
+
+![Mandatory](../../img/mandatory.png)[Amazon RDS Proxy](https://aws.amazon.com/rds/proxy/)
+
+[RDS Cross-Region Replication, depends on the DB engine](https://disaster-recovery.workshop.aws/en/services/databases/rds/rds-cross-region.html)
+
+[Good Lab for DR Scenarios](https://disaster-recovery.workshop.aws/en/labs.html)
+
+![Mandatory](../../img/mandatory.png)[DynamoDB Indexes Explained: Choosing Between Global and Local Secondary Indexes for Optimal Performance](https://aws.amazon.com/vi/awstv/watch/211cb42d6eb/)
+
+![Mandatory](../../img/mandatory.png)[Improving data access with secondary indexes in DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html)
+
+![Mandatory](../../img/mandatory.png)[Change data capture for DynamoDB Streams](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.html)
+
+[Choosing an AWS NoSQL Database](https://docs.aws.amazon.com/whitepapers/latest/choosing-an-aws-nosql-database/choosing-an-aws-nosql-database.html)
+
+[Backup strategies for Amazon DynamoDB](https://aws.amazon.com/blogs/database/backup-strategies-for-amazon-dynamodb/)
+
+![Mandatory](../../img/mandatory.png)[Whitepaper for NoSQL Store](https://docs.aws.amazon.com/whitepapers/latest/choosing-an-aws-nosql-database/understanding-amazon-nosql-data-stores.html)
+
+[Amazon Quantum Ledger Database (QLDB) FAQs: Is Amazon Quantum Ledger Database a distributed ledger or blockchain service?](https://aws.amazon.com/qldb/faqs/)
+
+[Getting started with MemoryDB](https://docs.aws.amazon.com/memorydb/latest/devguide/getting-started.html)
+
+[Comparison between DynamoDB vs Amazon Keyspaces](https://dynobase.dev/dynamodb-vs-amazon-keyspaces/)
+
+[Migration with native database tools and AWS DMS](https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-database-rehost-tools/dms.html)
+
+![Mandatory](../../img/mandatory.png)[Integrating AWS Database Migration Service with AWS Schema Conversion Tool](https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_DMSIntegration.html)
+
+[Creating tasks for ongoing replication using AWS DMS](https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Task.CDC.html)
+
+## Module 7 - Creating a Networking Environment
+
+![Mandatory](../../img/mandatory.png)[Networking Essentials](https://aws.amazon.com/getting-started/aws-networking-essentials/)
+
+[What is Amazon VPC?](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
+
+![Mandatory](../../img/mandatory.png)[Control subnet traffic with network access control lists](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html)
+
+[Elastic network interfaces](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html)
+
+![Mandatory](../../img/mandatory.png)[AWS Public IPv4 Address Charge + Public IP Insights](https://aws.amazon.com/blogs/aws/new-aws-public-ipv4-address-charge-public-ip-insights/)
+
+[AWS Network Firewall](https://aws.amazon.com/network-firewall/)
+
+![Mandatory](../../img/mandatory.png)[Explanation for NODATA in VPC Flow Logs if there is no data](https://repost.aws/questions/QUzKO-doLkRieaf0zWSn1ahg/explanation-for-nodata-in-vpc-flow-logs-if-there-is-no-data)
+
+[Getting started with Reachability Analyzer](https://docs.aws.amazon.com/vpc/latest/reachability/getting-started.html)
+
+[Getting started with Network Access Analyzer](https://docs.aws.amazon.com/vpc/latest/network-access-analyzer/getting-started.html)
+
+## Module 8 - Connecting Networks
+
+[Hybrid Connectivity](https://docs.aws.amazon.com/whitepapers/latest/hybrid-connectivity/hybrid-connectivity.html)
+
+![Mandatory](../../img/mandatory.png)[Amazon Virtual Private Cloud Connectivity Options](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/welcome.html)
+
+![Mandatory](../../img/mandatory.png)[Amazon Virtual Private Cloud Connectivity Options](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-direct-connect-aws-transit-gateway.html)
+
+![Mandatory](../../img/mandatory.png)[Scaling VPN throughput using AWS Transit Gateway](https://aws.amazon.com/blogs/networking-and-content-delivery/scaling-vpn-throughput-using-aws-transit-gateway/)
+
+[Create a private IP AWS Site-to-Site VPN over AWS Direct Connect: Step-by-step](https://docs.aws.amazon.com/vpn/latest/s2svpn/private-ip-dx-steps.html)
+
+[Site-to-Site VPN Tunnel Initiation Options](https://docs.aws.amazon.com/vpn/latest/s2svpn/initiate-vpn-tunnels.html)
+
+[Customer Gateway Options for Your Site-to-Site VPN Connection](https://docs.aws.amazon.com/vpn/latest/s2svpn/cgw-options.html)
+
+[Improve VPN Network Performance of AWS Hybrid Cloud with Global Accelerator](https://aws.amazon.com/blogs/architecture/improve-vpn-network-performance-of-aws-hybrid-cloud-with-global-accelerator)
+
+[Site-to-Site VPN routing options](https://docs.aws.amazon.com/vpn/latest/s2svpn/VPNRoutingTypes.html)
+
+[FAQs: AWS Direct Connect](https://aws.amazon.com/directconnect/faqs/)
+
+[Mandatory Hosted virtual interfaces on VIF - Note IP Requisites](https://docs.aws.amazon.com/directconnect/latest/UserGuide/WorkingWithVirtualInterfaces.html#hosted-vif)
+
+[Traffic encryption Options for Direct Connect](https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/traffic-encryption-options-direct-connect-ra.pdf)
+
+[BGP: AS Path Prepending - Un-official Blog](htps://blog.lacnic.net/un-necesario-rfc-sobre-bgp-as-path-prepending/)
+
+## Module 9 - Securing User, Application, and Data Access
+
+[Define permissions based on attributes with ABAC authorization](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_attribute-based-access-control.html)
+
+[Attribute-Based Access Control (ABAC) for AWS](https://aws.amazon.com/identity/attribute-based-access-control/)
+
+[IAM tutorial: Define permissions to access AWS resources based on tags](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_attribute-based-access-control.html#tutorial_abac_step2)
+
+![Mandatory](../../img/mandatory.png)[RBAC vs. ABAC: Definitions & When to Use](https://www.okta.com/identity-101/role-based-access-control-vs-attribute-based-access-control/)
+
+[Types of access control >> AWS Prescriptive Guidance](https://docs.aws.amazon.com/prescriptive-guidance/latest/saas-multitenant-api-access-authorization/access-control-types.html)
+
+[Access to externally authenticated users (identity federation)](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_federated-users.html)
+
+![Mandatory](../../img/mandatory.png)[What's the difference between Amazon Cognito user pools and identity pools?](https://repost.aws/knowledge-center/cognito-user-pools-identity-pools)
+
+[Common Amazon Cognito scenarios](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-scenarios.html)
+
+[Comprehensive Guide of AWS IAM Policy evaluation logic](https://community.aws/content/2d1bIioM3UgQZqyaYquu3kTaWAg/comprehensive-guide-of-aws-iam-policy-evaluation-logic)
+
+![Mandatory](../../img/mandatory.png)[Policy evaluation logic](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)
+
+[Real View < 2019 >>Automating Your AWS Landing Zone Deployment to Speed Up Large-Scale Migrations](https://aws.amazon.com/blogs/apn/automating-your-aws-landing-zone-deployment-to-speed-up-large-scale-migrations/)
+
+[AWS Landing Zone setup through AWS Control Tower](https://towardsaws.com/aws-landing-zone-setup-through-aws-control-tower-25c70946d1b8)
+
+[Protecting data with server-side encryption](https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html)
+
+[Using server-side encryption with customer-provided keys (SSE-C)](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerSideEncryptionCustomerKeys.html)
+
+## Module 10 - Implementing Monitoring, Elasticity, and High Availability
+
+![Mandatory](../../img/mandatory.png)[Metrics concepts](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html)
+
+![Mandatory](../../img/mandatory.png)[Amazon CloudWatch Logs concepts](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CloudWatchLogsConcepts.html)
+
+![Mandatory](../../img/mandatory.png)[What is Amazon EC2 Auto Scaling?](https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html)
+
+![Mandatory](../../img/mandatory.png)[How step scaling for Application Auto Scaling works](https://docs.aws.amazon.com/autoscaling/application/userguide/step-scaling-policy-overview.html#step-scaling-how-it-works)
+
+[Managing performance and scaling for Aurora DB clusters](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Managing.Performance.html)
+
+![Mandatory](../../img/mandatory.png)[What is DNS?](https://aws.amazon.com/route53/what-is-dns/)
+
+[Configuring Amazon Route 53 as your DNS service](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-configuring.html)
+
+[Supported DNS record types](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.html)
+
+[Create a launch template for an Auto Scaling group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-launch-template.html)
+
+## Module 11 - Automating Your Architecture
+
+[The Case for Investing in Cloud Automation](https://aws.amazon.com/blogs/apn/the-case-for-investing-in-cloud-automation/)
+
+["Automation and tooling" Section on "Introduction to DevOps on AWS" Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/automation.html)
+
+![Mandatory](../../img/mandatory.png)[What is Infrastructure as Code?](https://aws.amazon.com/what-is/iac/)
+
+[AWS CloudFormation](https://aws.amazon.com/cloudformation/)
+
+[AWS resource and property types reference](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)
+
+![Mandatory](../../img/mandatory.png)[CloudFormation template sections](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-anatomy.html)
+
+[Perform custom processing on CloudFormation templates with template macros](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-macros.html)
+
+[Example change sets for CloudFormation stacks](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets-samples.html)
+
+[Embed stacks within other stacks using nested stacks](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-nested-stacks.html)
+
+[AWS Solutions Library](https://aws.amazon.com/solutions/)
+
+[AWS QuickStart, and now AWS Solutions Library](https://aws.amazon.com/solutions/)
+
+[Dynamic Image Transformation for Amazon CloudFront](https://aws.amazon.com/solutions/implementations/dynamic-image-transformation-for-amazon-cloudfront/)
+
+[Pregunta: Existe Ingenieria Reversa para recursos en AWS ?](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/generate-IaC.html)
+
+## Module 12 - Caching Content
+
+["Let’s Architect! Leveraging in-memory databases"  on AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/lets-architect-leveraging-in-memory-databases/)
+
+![Mandatory](../../img/mandatory.png)[Caching challenges and strategies](https://aws.amazon.com/builders-library/caching-challenges-and-strategies/)
+
+[The System Design Checklist](https://evelyne24.github.io/system-design-checklist/layers/cache)
+
+[What is Amazon CloudFront?](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
+
+![Mandatory](../../img/mandatory.png)[How CloudFront delivers content](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/HowCloudFrontWorks.html)
+
+[Deliver Content Faster with Amazon CloudFront: TUTORIAL](https://aws.amazon.com/getting-started/hands-on/deliver-content-faster/)
+
+[Manage how long content stays in the cache (expiration)](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Expiration.html)
+
+[Latency reduction of hybrid architectures with Amazon ElastiCache](https://aws.amazon.com/blogs/database/latency-reduction-of-hybrid-architectures-with-amazon-elasticache)
+
+## Module 13 - Building Decoupled Architectures 
+
+[What is Elastic Load Balancing?](https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)
+
+[Implementing Microservices on AWS](https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.html)
+
+[Using dead-letter queues in Amazon SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html)
+
+[Sending mobile push notifications with Amazon SNS](https://docs.aws.amazon.com/sns/latest/dg/sns-mobile-application-as-subscriber.html#sns-user-notifications-process-overview)
+
+[What is Amazon MQ?](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/welcome.html)
+
+[AmazonMQ Workshop For ActiveMQ](https://catalog.us-east-1.prod.workshops.aws/workshops/0b534eb9-fdfb-49f0-8df4-ebccca71a9eb/en-US/00-prerequisites)
+
+## Module 14 - Building Serverless Architectures and Microservices
+
+![Mandatory](../../img/mandatory.png)[Docker Mastery: with Kubernetes +Swarm from a Docker Captain](https://www.udemy.com/course/docker-mastery/?couponCode=AUGUST25-CLOUDNATIVE)
+
+![Mandatory](../../img/mandatory.png)[Kubernetes Mastery: Hands-On Lessons From A Docker Captain](https://www.udemy.com/course/kubernetesmastery/?couponCode=PMNVD2525)
+
+![Mandatory](../../img/mandatory.png)[Docker, de principiante a experto](https://www.udemy.com/course/docker-de-principiante-a-experto/?couponCode=PMNVD2525)
+
+![Mandatory](../../img/mandatory.png)[Kubernetes, de principiante a experto](https://www.udemy.com/course/kubernetes-de-principiante-a-experto/?couponCode=PMNVD2525)
+
+![Mandatory](../../img/mandatory.png)[Obscure secret from AWS: Scaling up the Prime Video audio/video monitoring service and reducing costs by 90%](https://web.archive.org/web/20240325042615/https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90)
+
+[Microservices by Martin Fowler](https://martinfowler.com/articles/microservices.html)
+
+[Microservice Architecture pattern](https://microservices.io/patterns/microservices.html)
+
+![Mandatory](../../img/mandatory.png)[Understanding Lambda function scaling](https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency.html)
+
+[Working with Lambda environment variables](https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html)
+
+[Using the Lambda context object to retrieve Python function information](https://docs.aws.amazon.com/lambda/latest/dg/python-context.html)
+
+[Managing Lambda dependencies with layers](https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html)
+
+[Invoking a Lambda function asynchronously](https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html)
+
+[AWS Lambda vs. ECS vs. EC2: A Comprehensive Performance and Cost Analysis](https://mantelgroup.com.au/blog/aws-lambda-vs-ecs-vs-ec2-a-comprehensive-performance-and-cost-analysis/)
+
+[Compare The Cost of AWS Lambda, Fargate, and EC2 For Your Workloads](https://medium.com/life-at-apollo-division/compare-the-cost-of-aws-lambda-fargate-and-ec2-for-your-workloads-ad112c4740fb)
+
+[Enable internet access for VPC-connected Lambda functions](https://docs.aws.amazon.com/lambda/latest/dg/configuration-vpc-internet.html)
+
+[Best practices for working with AWS Lambda functions](https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html)
+
+[Choosing workflow type in Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/choosing-workflow-type.html)
+
+[AWS Step Functions Pricing](https://aws.amazon.com/step-functions/pricing/)
+
+[Viewing execution details in the Step Functions console](https://docs.aws.amazon.com/step-functions/latest/dg/concepts-view-execution-details.html#console-exp-differences)
+
+![Mandatory](../../img/mandatory.png)[REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)
+
+[Amazon API Gateway concepts](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-basic-concept.html)
+
+[Amazon API Gateway - Explanation of API GW Deployments](https://digitalcloud.training/amazon-api-gateway/)
+
+[Serverless Application Lens, AWS Well-Architected Framework (Pag. 63)](https://docs.aws.amazon.com/pdfs/wellarchitected/latest/serverless-applications-lens/wellarchitected-serverless-applications-lens.pdf#welcome)
+
+[Create AWS service integrations for HTTP APIs in API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-aws-services.html)
+
+[API Gateway resource policy examples](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-resource-policies-examples.html)
+
+## Module 15 - Data Engineering Patterns
+
+[ETL vs ELT: Key Difference Use Cases](https://www.bizbot.com/blog/etl-vs-elt-key-differences-use-cases-2024/)
+
+[Amazon AppFlow](https://aws.amazon.com/appflow)
+
+[AWS Data Exchange](https://aws.amazon.com/data-exchange)
+
+[What is AWS Glue DataBrew](https://docs.aws.amazon.com/databrew/latest/dg/what-is.html)
+
+[Data preparation: AWS Glue Data Brew or Amazon SageMaker Data Wrangler?](https://youtu.be/4FnK9ORnH4c)
+
+[Amazon Redshift Spectrum vs. Athena:A Detailed Comparison](https://www.integrate.io/blog/amazon-redshift-spectrum-vs-athena/)
+
+[Amazon Managed Service for Apache Flink](https://aws.amazon.com/managed-service-apache-flink/)
+
+[Apache Kafka vs Flink](https://www.geeksforgeeks.org/apache-kafka/apache-kafka-vs-flink/)
+
+[Streaming ETL with Apache Flink and Amazon Kinesis Data Analytics](https://aws.amazon.com/blogs/big-data/streaming-etl-with-apache-flink-and-amazon-kinesis-data-analytics/)
+
+[AWS Lake Formation: How it works](https://docs.aws.amazon.com/lake-formation/latest/dg/how-it-works.html)
+
+[Spark with Amazon EMR – GettingStarted with Data Processing andAnalytics](https://sparkbyexamples.com/amazon-aws/spark-with-amazon-emr-gettingstarted-with-data-processing-andanalytics/)
+
+## Module 16 - Planning for Disaster
+
+[Caída de AWS en US-EAST-1: Explicación Detallada y Sencilla](https://dev.to/franciscojeg78/caida-de-aws-en-us-east-1-explicacion-detallada-y-sencilla-1gpb)
+
+[Amazon Web Services no registró fallas este viernes, 24 de octubre de 2025](https://www.semana.com/tecnologia/articulo/amazon-web-services-no-registro-fallas-este-viernes-24-de-octubre-de-2025/202543)
+
+[Business continuity vs. disaster recovery: Which plan is right for you?](https://www.ibm.com/think/topics/business-continuity-vs-disaster-recovery-plan)
+
+[Copy an Amazon EBS snapshot](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-copy-snapshot.html)
+
+[Replicating EFS file systems](https://docs.aws.amazon.com/efs/latest/ug/efs-replication.html)
+
+[AWS DataSync](https://aws.amazon.com/datasync)
+
+[Introducing global endpoints for Amazon EventBridge](https://aws.amazon.com/blogs/compute/introducing-global-endpoints-for-amazon-eventbridge)
+
+[Point-in-time backups for DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Point-in-time-recovery.html)
+
+[Backup strategies for Amazon DynamoDB](https://aws.amazon.com/blogs/database/backup-strategies-for-amazon-dynamodb)
+
+[Failover routing](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-failover.html)
+
+[Disaster Recovery DR Architecture on AWS, Part III: Pilot Light and Warm Standby](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iii-pilot-light-and-warm-standby)
+
+## Module 17 - BridgingToCertification
+
+[AWS Certification](https://aws.amazon.com/certification)
+
+![Mandatory](../../img/mandatory.png)[AWS Certified Solutions Architect - Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate)
+
+[AWS Architecture Center](https://aws.amazon.com/architecture)
+
+[AWS Documentation (services)](https://docs.aws.amazon.com)
+
+[AWS Frequently asked questions FAQs](https://aws.amazon.com/faqs)
+
+[Getting Started Resource Center](https://aws.amazon.com/getting-started)
+
+[AWS Builder Labs (Subscription-based hands-on labs)](https://aws.amazon.com/training/digital/aws-builder-labs)
+
+[AWS Ramp-Up Guides](https://aws.amazon.com/training/ramp-up-guides)
+
+[This is My Architecture](https://aws.amazon.com/architecture/this-is-my-architecture)
+
+![Mandatory](../../img/mandatory.png)[Back to Basics](https://aws.amazon.com/architecture/back-to-basics)
+
+[Hands-on Tutorials](https://aws.amazon.com/getting-started/hands-on)
+
+[Decision guides](https://aws.amazon.com/getting-started/decision-guides)
+
+![Mandatory](../../img/mandatory.png)[Solutions Architect Ramp-Up Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Architect.pdf)
+
+[Deadlines - 4 certfs in 4 months](https://aws.amazon.com/blogs/training-and-certification/how-one-learner-earned-four-aws-certifications-in-four-months/)
+
+[Architecting on AWS – Online Course Supplement on Skill Builder](https://explore.skillbuilder.aws/learn/course/external/view/elearning/8319/architecting-on-aws-online-course-supplement)
+
+![Mandatory](../../img/mandatory.png)[Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
+
+[Skill Builder](https://explore.skillbuilder.aws/learn/signin)
+
+![Mandatory](../../img/mandatory.png)[SB Essentials](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/10455/Fundamentos-de-la-nube-de-AWS-para-profesionales-Espa%2525C3%2525B1ol-de-Espa%2525C3%2525B1a-%25257C-AWS-Cloud-Practitioner-Essentials-Spanish-from-Spain-)
+
+![Mandatory](../../img/mandatory.png)[Certfs Exam Readiness](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/125/exam-readiness-aws-certified-solutions-architect-associate-digital)
+
+[Workshops](https://workshops.aws/)
+
+[Events](https://aws-experience.com/latam/smb/events)
