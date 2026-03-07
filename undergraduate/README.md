@@ -10,6 +10,7 @@ saa-c03_20261.md
 - [Module 6 - Adding a Database Layer](#module-6---adding-a-database-layer)
 - [Module 7 - Creating a Networking Environment](#module-7---creating-a-networking-environment)
 - [Module 8 - Connecting Networks](#module-8---connecting-networks)
+  - [Code Assistant](#code-assistant-1)
 - [Module 9 - Securing User, Application, and Data Access](#module-9---securing-user-application-and-data-access)
 - [Module 10 - Implementing Monitoring, Elasticity, and High Availability](#module-10---implementing-monitoring-elasticity-and-high-availability)
 - [Module 11 - Automating Your Architecture](#module-11---automating-your-architecture)
@@ -242,6 +243,10 @@ Suggested Prompt:
 
 ![Mandatory](../img/mandatory.png)[AWS Public IPv4 Address Charge + Public IP Insights](https://aws.amazon.com/blogs/aws/new-aws-public-ipv4-address-charge-public-ip-insights/)
 
+![Mandatory](../img/mandatory.png)[New – Port Forwarding Using AWS System Manager Session Manager](https://aws.amazon.com/blogs/aws/new-port-forwarding-using-aws-system-manager-sessions-manager/)
+
+[Use port forwarding in AWS Systems Manager Session Manager to connect to remote hosts](https://aws.amazon.com/blogs/mt/use-port-forwarding-in-aws-systems-manager-session-manager-to-connect-to-remote-hosts/)
+
 [AWS Network Firewall](https://aws.amazon.com/network-firewall/)
 
 ![Mandatory](../img/mandatory.png)[Explanation for NODATA in VPC Flow Logs if there is no data](https://repost.aws/questions/QUzKO-doLkRieaf0zWSn1ahg/explanation-for-nodata-in-vpc-flow-logs-if-there-is-no-data)
@@ -277,6 +282,24 @@ Suggested Prompt:
 [Traffic encryption Options for Direct Connect](https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/traffic-encryption-options-direct-connect-ra.pdf)
 
 [BGP: AS Path Prepending - Un-official Blog](htps://blog.lacnic.net/un-necesario-rfc-sobre-bgp-as-path-prepending/)
+
+### Code Assistant
+
+Suggested Prompt:
+
+AWS_SAA_C02_Labs-Labs4c1.jpg
+
+"You act as Senior DevOps Engineer with experience on Terraform. You have to create the terraform code for the attached image. In the case, that you need additional parameters create a default parameters as input of the terraform code. The keypair comes from parameter."
+
+AWS_SAA_C02_Labs-Labs5c2.jpg
+
+"You act as Senior DevOps Engineer with experience on Terraform. You have to create the terraform code for the attached image. In the case, that you need additional parameters create a default parameters as input of the terraform code. Review the rules on the ALB to receive the traffic based on the ports and on the paths."
+
+"Modify the code to use only 2 instances, add a parameter for the keypair."
+
+"On the same instance, have to run 3 docker instances, one for 80 port, other for 81 port and the last one for 82 port. The first docker instances is fmorenod81, second the benpiper and the last one for dockercloud. Review the code to allow this."
+
+"Modify ALB to have 2 more listeners: the first one is using port 81 and goes to TG_Port81 and second one is is using port 82 and goes to TG_Port82. Open those ports outside on the ALB"
 
 ## Module 9 - Securing User, Application, and Data Access
 
