@@ -38,7 +38,7 @@ Fecha|Modulos|Tema|Corte?|
 
 # Mindmap
 
-![Mandatory](../img/ppt.png)[XMind - This URL Can change](https://xmind.app/embed/HKtN3V)
+![Mandatory](../img/ppt.png)[My own AWS SAA-C03 MindMap](https://xmind.app/embed/cKmaac/)
 
 # Presentaciones
 
@@ -149,12 +149,6 @@ Fecha|Modulos|Tema|Corte?|
 [Gemini on VSCode](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/q-in-IDE-setup.html)
 
 [Amazon Q on VSCode](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/q-in-IDE-setup.html)
-
-[Tutorial](https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html)
-
-Suggested Prompt:
-
-"Crear codigo en AWS CLI para Windows 11 para crear un bucket publico y copie mis archivos HTML a este bucket creado. Dame la URL publica para poder acceder a esta pagina. Crea variables para el nombre aleatorio del bucket"
 
 ## Module 5 - Adding a Compute Layer Using Amazon EC2
 
