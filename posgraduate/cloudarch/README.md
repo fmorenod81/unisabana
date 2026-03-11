@@ -38,7 +38,9 @@ Fecha|Modulos|Tema|Corte?|
 
 # Mindmap
 
-![Mandatory](../../img/ppt.png)[My own AWS SAA-C03 MindMap](https://xmind.app/embed/cKmaac/)
+![Mandatory](../../img/mindmap.png)[My own AWS SAA-C03 MindMap - XMind](https://xmind.app/embed/cKmaac/)
+
+![Mandatory](../../img/mindmap.png)[My own AWS SAA-C02 MindMap - Coggle](https://embed.coggle.it/diagram/YKnho2mu1Y-h6tfN/nKRtaTdWjL8S2siOY1KwsV8UvteCykGxcZduLkR8eE0)
 
 # Presentaciones
 
@@ -56,7 +58,7 @@ Fecha|Modulos|Tema|Corte?|
 
 [Certification Badges *Instructor* AWS](https://www.credly.com/users/francisco-javier-moreno-diaz)
 
-[Certification Badges *Instructor* Oracle](../../img/questions/CertView.png)
+[Certification Badges *Instructor* Oracle](../../img/questions/CertView_FranciscoMoreno.jpg)
 
 [Study Badges *Instructor* AWS](https://app.pluralsight.com/profile/fmorenod)
 
@@ -67,6 +69,13 @@ Fecha|Modulos|Tema|Corte?|
 ![Mandatory](../../img/book.png)[AWS Certified Solutions Architect Study Guide with 900 Practice Test Questions, 4th Edition](https://learning-oreilly-com.ez.unisabana.edu.co/library/view/aws-certified-solutions/9781119982623/)
 
 ![Mandatory](../../img/video.png)[Skill Builder - Offer for 12 months](https://explore.skillbuilder.aws/learn/signin)
+
+[Listado Oficial de AWS UG](https://builder.aws.com/community/user-groups)
+
+[AWS User Group Security Colombia - Globant](https://www.meetup.com/aws-user-group-security-colombia/)
+
+[AWS User Group AI Colombia - EPAM](https://www.meetup.com/ai-aws-colombia/events/313519159/)
+
 
 ## Module 2 - Introducing Cloud Architecting
 
