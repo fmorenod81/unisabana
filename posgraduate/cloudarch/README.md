@@ -38,7 +38,7 @@ Fecha|Modulos|Tema|Corte?|
 
 # Mindmap
 
-![Mandatory](../img/ppt.png)[My own AWS SAA-C03 MindMap](https://xmind.app/embed/cKmaac/)
+![Mandatory](../../img/ppt.png)[My own AWS SAA-C03 MindMap](https://xmind.app/embed/cKmaac/)
 
 # Presentaciones
 
@@ -55,6 +55,8 @@ Fecha|Modulos|Tema|Corte?|
 ## Module 1 - Welcome Instructor
 
 [Certification Badges *Instructor* AWS](https://www.credly.com/users/francisco-javier-moreno-diaz)
+
+[Certification Badges *Instructor* Oracle](../../img/questions/CertView.png)
 
 [Study Badges *Instructor* AWS](https://app.pluralsight.com/profile/fmorenod)
 
