@@ -13,6 +13,7 @@ saa-c03_20261.md
   - [Code Assistant](#code-assistant-1)
 - [Module 9 - Securing User, Application, and Data Access](#module-9---securing-user-application-and-data-access)
 - [Module 10 - Implementing Monitoring, Elasticity, and High Availability](#module-10---implementing-monitoring-elasticity-and-high-availability)
+  - [Code Assistant](#code-assistant-2)
 - [Module 11 - Automating Your Architecture](#module-11---automating-your-architecture)
 - [Module 12 - Caching Content](#module-12---caching-content)
 - [Module 13 - Building Decoupled Architectures](#module-13---building-decoupled-architectures)
@@ -287,19 +288,9 @@ Suggested Prompt:
 
 Suggested Prompt:
 
-AWS_SAA_C02_Labs-Labs4c1.jpg
+[Used Image](../img/questions/aiexamples/AWS_SAA_C02_Labs-Labs4c1.jpg)
 
 "You act as Senior DevOps Engineer with experience on Terraform. You have to create the terraform code for the attached image. In the case, that you need additional parameters create a default parameters as input of the terraform code. The keypair comes from parameter."
-
-AWS_SAA_C02_Labs-Labs5c2.jpg
-
-"You act as Senior DevOps Engineer with experience on Terraform. You have to create the terraform code for the attached image. In the case, that you need additional parameters create a default parameters as input of the terraform code. Review the rules on the ALB to receive the traffic based on the ports and on the paths."
-
-"Modify the code to use only 2 instances, add a parameter for the keypair."
-
-"On the same instance, have to run 3 docker instances, one for 80 port, other for 81 port and the last one for 82 port. The first docker instances is fmorenod81, second the benpiper and the last one for dockercloud. Review the code to allow this."
-
-"Modify ALB to have 2 more listeners: the first one is using port 81 and goes to TG_Port81 and second one is is using port 82 and goes to TG_Port82. Open those ports outside on the ALB"
 
 ## Module 9 - Securing User, Application, and Data Access
 
@@ -350,6 +341,22 @@ AWS_SAA_C02_Labs-Labs5c2.jpg
 [Supported DNS record types](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.html)
 
 [Create a launch template for an Auto Scaling group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-launch-template.html)
+
+### Code Assistant
+
+[Used Image](../img/questions/aiexamples/AWS_SAA_C02_Labs-Labs5c2-A.jpg)
+
+"You act as Senior DevOps Engineer with experience on Terraform. You have to create the terraform code for the attached image. In the case, that you need additional parameters create a default parameters as input of the terraform code. Review the rules on the ALB to receive the traffic based on the ports and on the paths."
+
+"Modify the code to use only 2 instances, add a parameter for the keypair."
+
+"On the same instance, have to run 3 docker instances, one for 80 port, other for 81 port and the last one for 82 port. The first docker instances is fmorenod81, second the benpiper and the last one for dockercloud. Review the code to allow this."
+
+"Modify ALB to have 2 more listeners: the first one is using port 81 and goes to TG_Port81 and second one is is using port 82 and goes to TG_Port82. Open those ports outside on the ALB"
+
+[Used Image](../img/questions/aiexamples/AWS_SAA_C02_Labs-Labs5c2-B.jpg)
+
+"You act as Senior DevOps Engineer with experience on Terraform. You have to create the terraform code for the attached image. In the case, that you need additional parameters create a default parameters as input of the terraform code, for instance the Keypair is a parameter. Review the rules on the ALB to receive the traffic based on the ports and on the paths. No use any file inside of this workspace as context. Create a new folder with this code."
 
 ## Module 11 - Automating Your Architecture
 
