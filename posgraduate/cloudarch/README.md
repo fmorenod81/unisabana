@@ -1,5 +1,10 @@
 cloudarch_20261.md
 
+![New](../../img/commercial.png)[]()
+
+![New](../../img/new.png)[]()
+
+
 - [Fechas](#fechas)
 - [Mindmap](#mindmap)
 - [Presentaciones](#presentaciones)
@@ -143,11 +148,27 @@ Fecha|Modulos|Tema|Corte?|
 
 ## Module 4 - Adding a Storage Layer with Amazon S3
 
+[S3 Express One Zone vs S3 Standard Workshop](https://catalog.workshops.aws/comparing-s3-standard-and-s3-express-one-zone-storage-classes/en-US)
+
+
+![New](../../img/new.png)[Amazon S3 Express One Zone storage class](https://aws.amazon.com/s3/storage-classes/express-one-zone/)
+
+![New](../../img/new.png)[S3 Compare Pricing between storage classes](https://aws.amazon.com/es/s3/pricing/)
+
+
+![New](../../img/new.png)[Performance guidelines for Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance-guidelines.html)
+
+![New](../../img/new.png)[Amazon Simple Storage Service endpoints and quotas](https://docs.aws.amazon.com/general/latest/gr/s3.html)
+
+![New](../../img/new.png)[Working with directory buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/directory-buckets-overview.html)
+
+![New](../../img/new.png)[Working with Amazon S3 Tables and table buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables.html)
+
+![New](../../img/new.png)[Working with S3 Vectors and vector buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors.html)
+
 ![Mandatory](../../img/mandatory.png)[Uploading and copying objects using multipart upload in Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html)
 
 [Demo S3 Transfer Acceleration](https://awsacademy.instructure.com/courses/108774/modules/items/10191003)
-
-[S3 Express One Zone vs S3 Standard Workshop](https://catalog.workshops.aws/comparing-s3-standard-and-s3-express-one-zone-storage-classes/en-US)
 
 ![Mandatory](../../img/mandatory.png)[Strong Consistency](https://aws.amazon.com/s3/consistency/)
 
@@ -177,19 +198,40 @@ Fecha|Modulos|Tema|Corte?|
 
 [AMI Creation: From Image Builder](https://docs.aws.amazon.com/imagebuilder/latest/userguide/what-is-image-builder.html)
 
+
+![New](../../img/commercial.png)[Opcion 1: Matilda Cloud](https://www.matildacloud.com/)
+
+![New](../../img/commercial.png)[Opcion 2: Rackware](https://www.rackwareinc.com/rackware-platform/migration)
+
 ![Mandatory](../../img/mandatory.png)[Amazon EC2 instance type naming conventions](https://docs.aws.amazon.com/ec2/latest/instancetypes/instance-type-names.html)
 
 ![Mandatory](../../img/mandatory.png)[Instance Explorer](https://aws.amazon.com/ec2/instance-explorer/)
 
+![Mandatory](../../img/video.png)[EC2 Instance Types | Your Ultimate Guide for AWS Certification!](https://youtu.be/NLcWdF3x0mw)
+
+[Dr. Mc Gift PX](https://amiryunas.medium.com/ec2-instance-types-a67e637d6aec)
+
 [AWS Compute Optimizer](https://aws.amazon.com/compute-optimizer/)
 
 [EC2 Instances with Instance Store](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-store-volumes.html)
+
+![Mandatory](../../img/mandatory.png)[Choosing an AWS storage service](https://docs.aws.amazon.com/decision-guides/latest/storage-on-aws-how-to-choose/choosing-aws-storage-service.html)
+
+### Pregunta
+Q: Que protocolos de comunicacion comunes existen para los Block Storage  y los File System Storage?
+R:/ iSCSI, NVMe-oF y FC para los Block Storage; y NFS (v3 a 4.1 para Linux Principalmente), SMB / CIFS (Windows Principalmente) y Lustre / BeeGFS (para HPC) para los File System.
+
+Q: Que tipos de sistemas de archivos populares existen para los File System?
+R:/ Sistemas de archivos POSIX-compliant y Windows Native. Entre ellos estan: Linux con ext4, XFS, ZFS, Btrfs; y Windows con FAT16, FAT32, exFAT, NTFS, ReFS.
+
 
 ![Mandatory](../../img/mandatory.png)[EBS types](https://aws.amazon.com/ebs/volume-types/)
 
 [A Decade of Ever-Increasing Provisioned IOPS for Amazon EBS](https://aws.amazon.com/blogs/aws/a-decade-of-ever-increasing-provisioned-iops-for-amazon-ebs/)
 
 [Attach an EBS volume to multiple EC2 instances using Multi-Attach](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volumes-multi.html)
+
+![New](../../img/new.png)[What’s New in AWS Free Tier (2025)](https://dev.to/aws-builders/whats-new-in-aws-free-tier-2025-2ba5)
 
 ![Mandatory](../../img/mandatory.png)[Depreceated: OpsWorks for Puppet and Chef - En Español](https://docs.aws.amazon.com/es_es/opsworks/latest/userguide/welcome.html)
 
@@ -209,11 +251,19 @@ Fecha|Modulos|Tema|Corte?|
 
 ![Mandatory](../../img/mandatory.png)[What’s the difference between an ACID and a BASE database?](https://aws.amazon.com/compare/the-difference-between-acid-and-base-database/)
 
+![Mandatory](../../img/mandatory.png)[Supported DB engines for DB instance classes](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.Support.html)
+
 [CAP Theorem](https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/cap-theorem.html)
 
 ![Mandatory](../../img/mandatory.png)[Scaling Your Amazon RDS Instance Vertically and Horizontally](https://aws.amazon.com/blogs/database/scaling-your-amazon-rds-instance-vertically-and-horizontally/)
 
 ![Mandatory](../../img/mandatory.png)[Amazon RDS FAQs - How many databases per instances?](https://aws.amazon.com/rds/faqs/#topic-0)
+
+![Mandatory](../../img/mandatory.png)[READ: Parameter groups for Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithParamGroups.html)
+
+![Mandatory](../../img/mandatory.png)[READ: Working with option groups - Additional Features](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithOptionGroups.html)
+
+![Mandatory](../../img/mandatory.png)[READ: BD Parameter Groups for Aurora vs Cluster Parameter Groups](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_WorkingWithParamGroups.html)
 
 [Managing capacity automatically with Amazon RDS storage autoscaling](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PIOPS.Autoscaling.html)
 
@@ -232,6 +282,8 @@ Fecha|Modulos|Tema|Corte?|
 [Identity and access management for Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAM.html)
 
 ![Mandatory](../../img/mandatory.png)[IAM database authentication for MariaDB, MySQL, and PostgreSQL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.html)
+
+[How do I allow users to authenticate to an Amazon RDS for MySQL DB instance through their IAM credentials?](https://repost.aws/knowledge-center/users-connect-rds-iam)
 
 ![Mandatory](../../img/mandatory.png)[Amazon RDS Proxy](https://aws.amazon.com/rds/proxy/)
 
