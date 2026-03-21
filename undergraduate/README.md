@@ -384,6 +384,7 @@ Suggested Prompt:
 
 [Dynamic Image Transformation for Amazon CloudFront](https://aws.amazon.com/solutions/implementations/dynamic-image-transformation-for-amazon-cloudfront/)
 
+
 [Pregunta: Existe Ingenieria Reversa para recursos en AWS ?](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/generate-IaC.html)
 
 ## Module 12 - Caching Content
@@ -400,9 +401,17 @@ Suggested Prompt:
 
 [Deliver Content Faster with Amazon CloudFront: TUTORIAL](https://aws.amazon.com/getting-started/hands-on/deliver-content-faster/)
 
+[Getting Started with Elastic Transcoder Service - EOL 13-Nov-2025](https://aws.amazon.com/elastictranscoder/getting-started/)
+
+[Getting started with MediaConvert](https://docs.aws.amazon.com/mediaconvert/latest/ug/getting-started.html)
+
+[What Is MediaLive?](https://docs.aws.amazon.com/medialive/latest/ug/what-is.html)
+
 [Manage how long content stays in the cache (expiration)](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Expiration.html)
 
 [Latency reduction of hybrid architectures with Amazon ElastiCache](https://aws.amazon.com/blogs/database/latency-reduction-of-hybrid-architectures-with-amazon-elasticache)
+
+[Related services - See Options: Deployment Options (Serverless and Node-based); and Engines (ValKey, Redis OSS and Memcached)](https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/related-services-choose-between-memorydb-and-redis.html)
 
 ## Module 13 - Building Decoupled Architectures 
 
