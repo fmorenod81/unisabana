@@ -1,0 +1,111 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# HOW ABAC WORKS HERE
+#
+#  User tag:   team = alpha   →  can access only BucketAlpha (tagged team=alpha)
+#  User tag:   team = beta    →  can access only BucketBeta  (tagged team=beta)
+#
+#  A SINGLE shared IAM policy uses the condition:
+#    StringEquals:
+#      s3:ResourceTag/team: "${aws:PrincipalTag/team}"
+#
+#  AWS resolves this at request time:
+#    alice calls s3:GetObject on BucketAlpha
+#      aws:PrincipalTag/team = "alpha"   (from alice's IAM tag)
+#      s3:ResourceTag/team  = "alpha"    (from BucketAlpha's tag)
+#      "alpha" == "alpha"  →  ALLOW ✓
+#
+#    alice calls s3:GetObject on BucketBeta
+#      aws:PrincipalTag/team = "alpha"
+#      s3:ResourceTag/team  = "beta"
+#      "alpha" != "beta"   →  DENY  ✗
+# ─────────────────────────────────────────────────────────────────────────────
+
+Parameters:
+  AlicePassword:
+    Type: String
+    NoEcho: true
+    Default: Alice@12345!
+
+  BobPassword:
+    Type: String
+    NoEcho: true
+    Default: Bob@12345!
+
+Resources:
+
+  # ── S3 Buckets ──────────────────────────────────────────────────────────────
+  BucketAlpha:
+    Type: AWS::S3::Bucket
+    Properties:
+      Tags:
+        - Key: team
+          Value: alpha
+
+  BucketBeta:
+    Type: AWS::S3::Bucket
+    Properties:
+      Tags:
+        - Key: team
+          Value: beta
+
+  # ── Shared ABAC Policy ──────────────────────────────────────────────────────
+  # One policy for ALL users. Access is decided by tag matching at runtime.
+  AbacS3Policy:
+    Type: AWS::IAM::ManagedPolicy
+    Properties:
+      ManagedPolicyName: abac-s3-team-policy
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Sid: S3AbacTeamAccess
+            Effect: Allow
+            Action:
+              - s3:ListBucket
+              - s3:GetObject
+              - s3:PutObject
+              - s3:DeleteObject
+            Resource: "*"
+            Condition:
+              StringEquals:
+                s3:ResourceTag/team: "${aws:PrincipalTag/team}"
+
+  # ── IAM User: alice (team = alpha) ─────────────────────────────────────────
+  UserAlice:
+    Type: AWS::IAM::User
+    Properties:
+      UserName: alice
+      LoginProfile:
+        Password: !Ref AlicePassword
+        PasswordResetRequired: true
+      Tags:
+        - Key: team
+          Value: alpha          # ← ABAC attribute — grants access to BucketAlpha
+      ManagedPolicyArns:
+        - !Ref AbacS3Policy
+
+  # ── IAM User: bob (team = beta) ────────────────────────────────────────────
+  UserBob:
+    Type: AWS::IAM::User
+    Properties:
+      UserName: bob
+      LoginProfile:
+        Password: !Ref BobPassword
+        PasswordResetRequired: true
+      Tags:
+        - Key: team
+          Value: beta           # ← ABAC attribute — grants access to BucketBeta
+      ManagedPolicyArns:
+        - !Ref AbacS3Policy
+
+# ── Outputs ─────────────────────────────────────────────────────────────────
+Outputs:
+  BucketAlphaName:
+    Value: !Ref BucketAlpha
+
+  BucketBetaName:
+    Value: !Ref BucketBeta
+
+  AbacPolicyArn:
+    Value: !Ref AbacS3Policy
