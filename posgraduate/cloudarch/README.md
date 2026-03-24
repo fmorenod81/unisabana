@@ -1,10 +1,5 @@
 cloudarch_20261.md
 
-![New](../../img/commercial.png)[]()
-
-![New](../../img/new.png)[]()
-
-
 - [Fechas](#fechas)
 - [Mindmap](#mindmap)
 - [Presentaciones](#presentaciones)
@@ -34,12 +29,12 @@ Fecha|Modulos|Tema|Corte?|
 --|--|--|--
 11-Mar| 1, 2, 3| Welcome to AWS Academy Cloud Architecting; Introducing Cloud Architecting; Securing Access||
 18-Mar| 4, 5, 6| Adding a Storage Layer with Amazon S3; Adding a Compute Layer Using Amazon EC2; Adding a Database Layer||
-25-Mar| 7, 8   | Creating a Networking Environment; Connecting Networks|AWS Academy: Mod 1-8|
+25-Mar| 7, 8   | Creating a Networking Environment; Connecting Networks|AWS Academy: Mod 1 - 8  ![Corte_oficial](../../img/questions/Corte_1.png)|
 01-Apr|Sem.Sant|||
 08-Apr| 9,10,11| Securing User, Application, and Data Access; Implementing Monitoring, Elasticity, and High Availability; Automating Your Architecture||
 15-Apr|12,13,14| Caching Content; Building Decoupled Architectures; Building Serverless Architectures and Microservices||
 22-Apr| Libre  |||
-29-Apr|15,16,17| Data Engineering Patterns, Planning for Disaster; Bridging to Certification|AWS Academy: Mod 9-17|
+29-Apr|15,16,17| Data Engineering Patterns, Planning for Disaster; Bridging to Certification|AWS Academy: Mod 9-17 ![Corte_oficial](../../img/questions/Corte_2.png)|
 
 # Mindmap
 
