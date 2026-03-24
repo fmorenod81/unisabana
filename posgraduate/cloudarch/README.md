@@ -1,10 +1,5 @@
 cloudarch_20261.md
 
-![New](../../img/commercial.png)[]()
-
-![New](../../img/new.png)[]()
-
-
 - [Fechas](#fechas)
 - [Mindmap](#mindmap)
 - [Presentaciones](#presentaciones)
