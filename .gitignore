@@ -1,3 +1,4 @@
 *.txt
 Unisabana.png
-terraform-*/*
+demos-ia/*
+*.pem
