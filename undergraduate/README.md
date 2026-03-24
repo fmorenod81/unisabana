@@ -131,7 +131,25 @@ Suggested Prompt:
 "Crear codigo en AWS CLI para Windows 11 para crear un bucket publico y copie mis archivos HTML a este bucket creado. Dame la URL publica para poder acceder a esta pagina. Crea variables para el nombre aleatorio del bucket"
 
 
-"You act as Senior Devops engineer using Terraform as main IaC. Create a demo for a Attribute-Based Access Control for 2 users and 2 buckets. You have to create the code on ai-demos folder and deployed the code after a manual review. In addition, you have to configure the recent created users on the local machine and review bucket access"
+"You act as a Senior DevOps engineer using Terraform as main IaC. Create a demo for Attribute-Based Access Control (ABAC) on S3 for 2 IAM users and 2 S3 buckets. Create the code in the aidemos folder and deploy after manual review. Configure the created users as AWS CLI profiles on the local machine and test bucket access.
+
+Requirements:
+
+True ABAC — tag-only enforcement: Access control must be based purely on a project tag on users and buckets. No hardcoded user names, ARNs, or bucket names in any policy condition. The tag is the only thing that determines access.
+
+S3 ABAC limitation: S3 does not support s3:ResourceTag in identity-based policies. Use a two-layer approach:
+
+Identity policy (Allow): Grants broad S3 permissions on all demo buckets (no tag conditions here).
+
+Bucket policy (Deny): Each bucket has a Deny statement that blocks s3:* unless aws:PrincipalTag/project matches the bucket's project tag value.
+
+Bucket policy Deny conditions must include all three:
+
+StringNotEquals on aws:PrincipalTag/project — blocks mismatched tags.
+
+Null on aws:PrincipalTag/project = false — only applies to principals that have the tag (so IAM admin users without the tag are not blocked).
+
+ArnNotLike on aws:PrincipalArn for arn:aws:iam::account_id:root — explicitly excludes the root user as a break-glass mechanism, since root does not reliably evaluate Null on aws:PrincipalTag."
 
 ## Module 5 - Adding a Compute Layer Using Amazon EC2
 
