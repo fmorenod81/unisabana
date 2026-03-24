@@ -130,6 +130,9 @@ Suggested Prompt:
 
 "Crear codigo en AWS CLI para Windows 11 para crear un bucket publico y copie mis archivos HTML a este bucket creado. Dame la URL publica para poder acceder a esta pagina. Crea variables para el nombre aleatorio del bucket"
 
+
+"You act as Senior Devops engineer using Terraform as main IaC. Create a demo for a Attribute-Based Access Control for 2 users and 2 buckets. You have to create the code on ai-demos folder and deployed the code after a manual review. In addition, you have to configure the recent created users on the local machine and review bucket access"
+
 ## Module 5 - Adding a Compute Layer Using Amazon EC2
 
 [Compute for any workload](https://aws.amazon.com/products/compute/)
@@ -290,7 +293,7 @@ Suggested Prompt:
 
 [Used Image](../img/questions/aiexamples/AWS_SAA_C02_Labs-Labs4c1.jpg)
 
-"You act as Senior DevOps Engineer with experience on Terraform. You have to create the terraform code for the attached image. In the case, that you need additional parameters create a default parameters as input of the terraform code. The keypair comes from parameter."
+"You act as Senior DevOps Engineer with experience on Terraform. You have to create the terraform code for the attached image. In the case, that you need additional parameters create a default parameters as input of the terraform code. The keypair comes from parameter and its default value is vockey. After a manual review, you have to deploy using default profile. You have to create a new folder on ai-demos with this code."
 
 ## Module 9 - Securing User, Application, and Data Access
 
@@ -346,7 +349,7 @@ Suggested Prompt:
 
 [Used Image](../img/questions/aiexamples/AWS_SAA_C02_Labs-Labs5c2-A.jpg)
 
-"You act as Senior DevOps Engineer with experience on Terraform. You have to create the terraform code for the attached image. In the case, that you need additional parameters create a default parameters as input of the terraform code. Review the rules on the ALB to receive the traffic based on the ports and on the paths."
+"You act as Senior DevOps Engineer with experience on Terraform. You have to create the terraform code for the attached image. In the case, that you need additional parameters create a default parameters as input of the terraform code. Review the rules on the ALB to receive the traffic based on the ports and on the paths. You have to create the code on a new folder on ai-demos"
 
 "Modify the code to use only 2 instances, add a parameter for the keypair."
 
@@ -356,7 +359,7 @@ Suggested Prompt:
 
 [Used Image](../img/questions/aiexamples/AWS_SAA_C02_Labs-Labs5c2-B.jpg)
 
-"You act as Senior DevOps Engineer with experience on Terraform. You have to create the terraform code for the attached image. In the case, that you need additional parameters create a default parameters as input of the terraform code, for instance the Keypair is a parameter. Review the rules on the ALB to receive the traffic based on the ports and on the paths. No use any file inside of this workspace as context. Create a new folder with this code."
+"You act as Senior DevOps Engineer with experience on Terraform. You have to create the terraform code for the attached image. In the case, that you need additional parameters create a default parameters as input of the terraform code, for instance the Keypair is a parameter. Review the rules on the ALB to receive the traffic based on the ports and on the paths. No use any file inside of this workspace as context. Create a new folder with this code on ai-demos"
 
 ## Module 11 - Automating Your Architecture
 
