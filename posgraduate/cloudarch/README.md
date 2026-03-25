@@ -10,6 +10,7 @@ cloudarch_20261.md
   - [Module 4 - Adding a Storage Layer with Amazon S3](#module-4---adding-a-storage-layer-with-amazon-s3)
     - [Code Assistant](#code-assistant)
   - [Module 5 - Adding a Compute Layer Using Amazon EC2](#module-5---adding-a-compute-layer-using-amazon-ec2)
+    - [Pregunta](#pregunta)
   - [Module 6 - Adding a Database Layer](#module-6---adding-a-database-layer)
   - [Module 7 - Creating a Networking Environment](#module-7---creating-a-networking-environment)
   - [Module 8 - Connecting Networks](#module-8---connecting-networks)
@@ -193,7 +194,6 @@ Fecha|Modulos|Tema|Corte?|
 
 [AMI Creation: From Image Builder](https://docs.aws.amazon.com/imagebuilder/latest/userguide/what-is-image-builder.html)
 
-
 ![New](../../img/commercial.png)[Opcion 1: Matilda Cloud](https://www.matildacloud.com/)
 
 ![New](../../img/commercial.png)[Opcion 2: Rackware](https://www.rackwareinc.com/rackware-platform/migration)
@@ -218,7 +218,6 @@ R:/ iSCSI, NVMe-oF y FC para los Block Storage; y NFS (v3 a 4.1 para Linux Princ
 
 Q: Que tipos de sistemas de archivos populares existen para los File System?
 R:/ Sistemas de archivos POSIX-compliant y Windows Native. Entre ellos estan: Linux con ext4, XFS, ZFS, Btrfs; y Windows con FAT16, FAT32, exFAT, NTFS, ReFS.
-
 
 ![Mandatory](../../img/mandatory.png)[EBS types](https://aws.amazon.com/ebs/volume-types/)
 
@@ -262,9 +261,15 @@ R:/ Sistemas de archivos POSIX-compliant y Windows Native. Entre ellos estan: Li
 
 [Managing capacity automatically with Amazon RDS storage autoscaling](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PIOPS.Autoscaling.html)
 
+![Mandatory](../../img/mandatory.png)[READ: Failing over a Multi-AZ DB cluster for Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/multi-az-db-clusters-concepts-failover.html)
+
+![Mandatory](../../img/mandatory.png)[READ: Failing over a Multi-AZ DB instance for Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.Failover.html)
+
+[Improving application availability with Amazon RDS Proxy](https://aws.amazon.com/blogs/database/improving-application-availability-with-amazon-rds-proxy/)
+
 ![Mandatory](../../img/mandatory.png)[Getting started with RDS Proxy](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy-setup.html)
 
-![Mandatory](../../img/mandatory.png)[Amazon RDS Read Replicas: Aurora 15, RDS 5 ](https://aws.amazon.com/rds/features/read-replicas/)
+![Mandatory](../../img/mandatory.png)[Amazon RDS Read Replicas: Aurora and RDS 15, RDS for Oracle 5 ](https://aws.amazon.com/rds/features/read-replicas/)
 
 ![Mandatory](../../img/mandatory.png)[Read replicas in a Multi-AZ deployment](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html#USER_ReadRepl.Overview.maz-replicas)
 
