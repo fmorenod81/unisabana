@@ -450,6 +450,8 @@ Suggested Prompt:
 
 [What is Amazon MQ?](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/welcome.html)
 
+[Amazon MQ for ActiveMQ storage types](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/broker-storage.html)
+
 [AmazonMQ Workshop For ActiveMQ](https://catalog.us-east-1.prod.workshops.aws/workshops/0b534eb9-fdfb-49f0-8df4-ebccca71a9eb/en-US/00-prerequisites)
 
 ## Module 14 - Building Serverless Architectures and Microservices
@@ -477,6 +479,8 @@ Suggested Prompt:
 [Managing Lambda dependencies with layers](https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html)
 
 [Invoking a Lambda function asynchronously](https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html)
+
+[Giving Lambda functions access to resources in an Amazon VPC](https://docs.aws.amazon.com/lambda/latest/dg/configuration-vpc.html#configuration-vpc-internet-access)
 
 [AWS Lambda vs. ECS vs. EC2: A Comprehensive Performance and Cost Analysis](https://mantelgroup.com.au/blog/aws-lambda-vs-ecs-vs-ec2-a-comprehensive-performance-and-cost-analysis/)
 
