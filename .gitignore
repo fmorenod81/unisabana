@@ -1,4 +1,4 @@
 *.txt
 Unisabana.png
-aidemos/*
 *.pem
+aidemos/lambda-layers/*
