@@ -16,6 +16,7 @@ cloudarch_20261.md
   - [Module 8 - Connecting Networks](#module-8---connecting-networks)
   - [Module 9 - Securing User, Application, and Data Access](#module-9---securing-user-application-and-data-access)
   - [Module 10 - Implementing Monitoring, Elasticity, and High Availability](#module-10---implementing-monitoring-elasticity-and-high-availability)
+    - [Pregunta](#pregunta-1)
   - [Module 11 - Automating Your Architecture](#module-11---automating-your-architecture)
   - [Module 12 - Caching Content](#module-12---caching-content)
   - [Module 13 - Building Decoupled Architectures](#module-13---building-decoupled-architectures)
@@ -412,6 +413,12 @@ R:/ Sistemas de archivos POSIX-compliant y Windows Native. Entre ellos estan: Li
 [Supported DNS record types](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.html)
 
 [Create a launch template for an Auto Scaling group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-launch-template.html)
+
+
+### Pregunta
+
+Q: Que servicio puede servir para SRE ?
+R:/ Mirar el DevOps Agent Service, servicio agentico para usar como compania al SRE, [DevOps Agent](https://aws.amazon.com/devops-agent/).
 
 ## Module 11 - Automating Your Architecture
 
