@@ -2,3 +2,7 @@
 Unisabana.png
 *.pem
 aidemos/lambda-layers/*
+terraform.tfstate*
+*.tfstate
+terraform-provider*
+.terraform.loc*
