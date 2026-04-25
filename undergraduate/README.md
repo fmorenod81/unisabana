@@ -514,11 +514,23 @@ Suggested Prompt:
 
 [Amazon AppFlow](https://aws.amazon.com/appflow)
 
+[AWS DataSync vs Storage Gateway](https://tutorialsdojo.com/aws-datasync-vs-storage-gateway/)
+
 [AWS Data Exchange](https://aws.amazon.com/data-exchange)
 
 [What is AWS Glue DataBrew](https://docs.aws.amazon.com/databrew/latest/dg/what-is.html)
 
 [Data preparation: AWS Glue Data Brew or Amazon SageMaker Data Wrangler?](https://youtu.be/4FnK9ORnH4c)
+
+[Kinesis Comparison Table](https://tutorialsdojo.com/amazon-kinesis-data-streams-vs-data-firehose-vs-data-analytics-vs-video-streams/)
+
+[Amazon Kinesis Data Streams Terminology and concepts](https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html)
+
+[Announcing Amazon Managed Service for Apache Flink Renamed from Amazon Kinesis Data Analytics](https://aws.amazon.com/blogs/aws/announcing-amazon-managed-service-for-apache-flink-renamed-from-amazon-kinesis-data-analytics/)
+
+![Mandatory](../img/mandatory.png)[KDS:Handle duplicate records](https://docs.aws.amazon.com/streams/latest/dev/kinesis-record-processor-duplicates.html)
+
+[LakeFormation:Federating into external data sources in the AWS Glue Data Catalog](https://docs.aws.amazon.com/lake-formation/latest/dg/federated-catalog-data-connection.html)
 
 [Amazon Redshift Spectrum vs. Athena:A Detailed Comparison](https://www.integrate.io/blog/amazon-redshift-spectrum-vs-athena/)
 
