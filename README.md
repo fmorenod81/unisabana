@@ -12,17 +12,23 @@
 
 2026 - 1 / **[Undergraduate - Ing. Informática]** Solutions Architect - SAA-C03 ![Mandatory](./img/book.png)[7 AM - Cod: 7241](./undergraduate/README.md)
 
+2026 - 1 / **[Undergraduate - Ing. Informática]** Terraform Course ![Mandatory](./img/ppt.png)[PDF File](./undergraduate/Terraform_Class_09052026.pdf)
+
+2026 - 1 / **[Undergraduate - Ing. Informática]** Terraform Code as Example![Mandatory](./img/zip.png)[Terraform Zip File](./undergraduate/tf_1.zip)
+
+2026 - 1 / **[Undergraduate - Ing. Informática]** Use of Code Assistant as Example![Mandatory](./img/book.png)[Images with Exercises](./aidemos/exercises/README.md)
+
+2026 - 2 / **[Postgraduate - Maestria en Arquitectura de Software ]** Arquitectura de Software II ![Mandatory](./img/book.png)[TBD](./posgraduate/swarch/README.md)
+
+![Past Courses](./img/old_courses.png)  **Inactive Courses**:
+
+2026 - 1 / **[Postgraduate - Maestria en Arquitectura de Software ]** Arquitecturas en la Nube ![Mandatory](./img/book.png)[5 PM - Cod: 7464](./posgraduate/cloudarch/README.md)
+
 2026 - 1 / **[Undergraduate - Ing. Informática]** Hiring Thoughts ![Mandatory](./img/ppt.png)[PDF File](./undergraduate/Hiring_Thoughs_02052026.pdf)
 
 2026 - 1 / **[Undergraduate - Ing. Informática]** Developer Associate - DVA-C02 ![Mandatory](./img/ppt.png)[PDF File](./undergraduate/AWS_DVA_C02_15112025.pdf)
 
 2026 - 1 / **[Undergraduate - Ing. Informática]** AI Practitioner - AIF-C01 ![Mandatory](./img/ppt.png)[PDF](./undergraduate/AWS_AIF_C01_15112025.pdf)
-
-2026 - 1 / **[Postgraduate - Maestria en Arquitectura de Software ]** Arquitecturas en la Nube ![Mandatory](./img/book.png)[5 PM - Cod: 7464](./posgraduate/cloudarch/README.md)
-
-2026 - 2 / **[Postgraduate - Maestria en Arquitectura de Software ]** Arquitectura de Software II ![Mandatory](./img/book.png)[TBD](./posgraduate/swarch/README.md)
-
-![Past Courses](./img/old_courses.png)  **Inactive Courses**:
 
 2025 - 2 / **[Undergraduate - Ing. Informática]** Solutions Architect - SAA-C03 ![Mandatory](./img/book.png)[7 AM - Cod: 5123 and 10 AM - Cod: 3358 and 5123](./undergraduate/saa-c03_20252.md)
 
