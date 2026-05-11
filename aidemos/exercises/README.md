@@ -28,5 +28,7 @@ TF_exercise1: EC2 with a specific keypair. Why don't work my SSH ?
 
 TF_exercise2: VPC, Subnet, and EC2 with specific keypair, cidr for VPC, EBS size and instance type with a validation. Why don't work my SSH ?
 
+TF_exercise4c1: Solution from Image AWS_SAA_C02_Labs-Labs4c1.jpg
 
+TF_exercise4c2: Solution from Image AWS_SAA_C02_Labs-Labs4c2.jpg
 
