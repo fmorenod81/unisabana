@@ -7,4 +7,7 @@ terraform.tfstate*
 terraform-provider*
 .terraform.loc*
 Quiz*.md
-TF_*
+.claude/*
+.idea/*
+.vscode/*
+.obsidian/*
