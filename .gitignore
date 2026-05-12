@@ -1,6 +1,7 @@
 *.txt
 Unisabana.png
 *.pem
+*.ppk
 aidemos/lambda-layers/*
 terraform.tfstate*
 *.tfstate
@@ -11,3 +12,4 @@ Quiz*.md
 .idea/*
 .vscode/*
 .obsidian/*
+terraform.tfvars
