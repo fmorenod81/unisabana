@@ -10,11 +10,14 @@
 
 ![Current Courses](./img/current_course.png)  **Current Courses**:
 
-2026 - 1 / **[Undergraduate - Ing. Informática]** Spec-Driven Development ![Mandatory](./img/book.png)[7 AM - Cod: 7241](./undergraduate/Spec_Driven_Dev_Class_16052026.pdf)
+2026 - 2 / **[Postgraduate - Maestria en Arquitectura de Software]** Arquitectura de Software II ![Mandatory](./img/book.png)[Tuesday: 10960
+and Wednesday: 10963 (Assistants, too)](./posgraduate/swarch/README.md)
 
-2026 - 2 / **[Postgraduate - Maestria en Arquitectura de Software ]** Arquitectura de Software II ![Mandatory](./img/book.png)[TBD](./posgraduate/swarch/README.md)
+2026 - 2 / **[Undergraduate - Ing. Informática]** Solutions Architect - SAA-C03 ![Mandatory](./img/book.png)[7 AM - Cod: 9499, 10 AM - Cod: 9498](./undergraduate/README.md)
 
 ![Past Courses](./img/old_courses.png)  **Inactive Courses**:
+
+2026 - 1 / **[Undergraduate - Ing. Informática]** Spec-Driven Development ![Mandatory](./img/book.png)[7 AM - Cod: 7241](./undergraduate/Spec_Driven_Dev_Class_16052026.pdf)
 
 2026 - 1 / **[Undergraduate - Ing. Informática]** Solutions Architect - SAA-C03 ![Mandatory](./img/book.png)[7 AM - Cod: 7241](./undergraduate/README.md)
 

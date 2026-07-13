@@ -21,6 +21,8 @@ softarch2_20262.md
   <summary><b>Presentaciones del Curso</b></summary>
   <br>
 
+![Mandatory](../../img/current_course.png)[Curso Unisabana Learning](https://unisabanae-learning.unisabana.edu.co/course/view.php?id=26430)
+
 ![Mandatory](../../img/ppt.png)[Modulo 0: Introduccion al Curso](./m0_Intro_To_Course.pdf)
 
 ![Mandatory](../../img/ppt.png)[Modulo 1: Estilos y Patrones Arquitectonicos](./m1_Arch_Styles_Patterns.pdf)
@@ -39,9 +41,9 @@ Seleccion de su problema asignado depende de la cantidad de estudiantes y del va
 
 ## Tacticas, Patrones Arquitectonicos y Estilos Arquitectonicos
 
-2026 - Semestre 2 Cohorte 1, se aplicara Caso 1 y Caso 3.
+2026 - Semestre 2, se aplicara Caso 1 (Martes, 10960) y Caso 2 (Miercoles, 10963).
 
-2026 - Semestre 2 Cohorte 2, se aplicara Caso 2 y Caso 4.
+2027 - Semestre 1 Cohorte 1, se aplicara Caso 3 y Caso 4.
 
 <details>
   <summary><b>Casos de estudio de Google</b></summary>
@@ -145,9 +147,9 @@ TBD
 
 ## Sistemas Distribuidos
 
-2026 - Semestre 2 Cohorte 1, se aplicara Caso A
+2026 - Semestre 2 Cohorte 1, se aplicara Caso A (Martes, 10960 y  Miercoles, 10963).
 
-2026 - Semestre 2 Cohorte 2, se aplicara Caso B
+2027 - Semestre 2 Cohorte 2, se aplicara Caso B
 
 ### Diseño de base de datos no-relacionales
 
@@ -184,7 +186,7 @@ La idea inicial es que realice el Architectural Kata y el ADR de la empresa o en
 
 2026 - Semestre 2 Cohorte 1, se aplicara Industrias i y iii
 
-2026 - Semestre 2 Cohorte 2, se aplicara Industrias ii y iv
+2026 - Semestre 1, se aplicara Industrias ii y iv
 
 ### Ideas en industrias sugeridas
 
@@ -217,6 +219,8 @@ La idea inicial es que realice el Architectural Kata y el ADR de la empresa o en
 - Mantenimiento de vehiculos particulares: lavado, revisiones, mantenimiento, SOAT, etc.
 
 - Solicitud de Reparacion Locativas.
+  
+- Recrutamiento temporal soporte especializado
 
 </details>
 
