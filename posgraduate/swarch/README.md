@@ -5,6 +5,7 @@ softarch2_20262.md
 - [Asignaciones](#asignaciones)
   - [Tacticas, Patrones Arquitectonicos y Estilos Arquitectonicos](#tacticas-patrones-arquitectonicos-y-estilos-arquitectonicos)
     - [Plataformas asignadas](#plataformas-asignadas)
+  - [Microservicios](#microservicios)
   - [Sistemas Distribuidos](#sistemas-distribuidos)
     - [Diseño de base de datos no-relacionales](#diseño-de-base-de-datos-no-relacionales)
   - [Liderazgo en Arquitectura](#liderazgo-en-arquitectura)
@@ -41,7 +42,7 @@ Seleccion de su problema asignado depende de la cantidad de estudiantes y del va
 
 ## Tacticas, Patrones Arquitectonicos y Estilos Arquitectonicos
 
-2026 - Semestre 2, se aplicara Caso 1 (Martes, 10960) y Caso 2 (Miercoles, 10963).
+2026 - Semestre 2, se aplicara Caso 1 (Martes, 10960) y Caso 2 (Miercoles, 10963). Preguntas en Unisabana Learning, Foro de dudas e inquietudes U1.
 
 2027 - Semestre 1 Cohorte 1, se aplicara Caso 3 y Caso 4.
 
@@ -145,6 +146,18 @@ Extensibilidad: Servicio de medicinas frecuentes.
 TBD
 </details>
 
+## Microservicios
+
+2026 - Semestre 2 Cohorte 1, se aplicara Caso A (Martes, 10960 y  Miercoles, 10963).
+
+Hasta el momento el script esta en Linux y en proceso de mejora, sin embargo, la asistencia del laboratorio en la parte de CI/CD se encuentra en este archivo comprimido.
+
+![Mandatory](../../img/mandatory.png) [Student Guide Modified for AWS Academy](./cap2-sg.zip)
+
+Prime Video Case (../../img/mandatory.png) [Original New](./Scaling%20up%20the%20Prime%20Video%20audio_video%20monitoring%20service%20and%20reducing%20costs%20by%2090%25%20-%20Prime%20Video%20Tech.pdf)
+
+Prime Video Case (../../img/mandatory.png) [Adrian Cockcroft Blog](./Scaling%20up%20the%20Prime%20Video%20audio_video%20monitoring%20service%20and%20reducing%20costs%20by%2090%25%20-%20Prime%20Video%20Tech.pdf)
+
 ## Sistemas Distribuidos
 
 2026 - Semestre 2 Cohorte 1, se aplicara Caso A (Martes, 10960 y  Miercoles, 10963).
@@ -152,6 +165,8 @@ TBD
 2027 - Semestre 2 Cohorte 2, se aplicara Caso B
 
 ### Diseño de base de datos no-relacionales
+
+Revisar su estado en AWS Academy Architecting Course, specially on Sandbox and review your current costs and compsution ![Mandatory](../../img/mandatory.png)[Guide](./Architecting_Sandbox_Account_Conditions.pdf)
 
 <details>
   <summary><b>Caso A: Sistema de Validacion de Tarjetas en Transporte Masivo</b></summary>
