@@ -154,6 +154,10 @@ Hasta el momento el script esta en Linux y en proceso de mejora, sin embargo, la
 
 ![Mandatory](../../img/mandatory.png) [Student Guide Modified for AWS Academy](./cap2-sg.zip)
 
+![Mandatory](../../img/mandatory.png) [Student Guide Modified for AWS Academy - PDF Format - RECENT](./script_2/student-guide.pdf)
+
+![Mandatory](../../img/mandatory.png) [Scripts to Review - README](./script_2/README.md)
+
 Prime Video Case (../../img/mandatory.png) [Original New](./Scaling%20up%20the%20Prime%20Video%20audio_video%20monitoring%20service%20and%20reducing%20costs%20by%2090%25%20-%20Prime%20Video%20Tech.pdf)
 
 Prime Video Case (../../img/mandatory.png) [Adrian Cockcroft Blog](./Scaling%20up%20the%20Prime%20Video%20audio_video%20monitoring%20service%20and%20reducing%20costs%20by%2090%25%20-%20Prime%20Video%20Tech.pdf)
