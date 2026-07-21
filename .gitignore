@@ -14,3 +14,4 @@ Quiz*.md
 .obsidian/*
 terraform.tfvars
 aidemos/exercises/TF_exercise6c2/.terraform.tfstate.lock.info
+posgraduate/swarch/cap2-sg

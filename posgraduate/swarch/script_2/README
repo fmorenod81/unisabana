@@ -1,0 +1,21 @@
+* Instalar Python. Version probada fue Python 3.9.11 en Windows 11 H2.
+
+
+
+- Encontre algunas paginas con la solucion al laboratorio, sin embargo, la parte de los scripts no aparece. Recordar mantener los nombres iguales.
+ 
+https://www.youtube.com/watch?v=l3-4ARgddJQ
+
+https://jayeshrajput.hashnode.dev/mastering-aws-building-microservices-and-cicd-pipelines-for-scalable-applications
+
+
+
+Cuando use comandos de CLI algunas veces la respuesta es larga por tanto se pagina, para avanzar se realiza con espacio y cuando llega al final aparece algo como (END) y para salir, se presiona q
+
+
+
+git config --global user.name Francisco
+git config --global user.email fmorenod@gmail.com
+
+
+On the File @student-guide.pdf You find a instructions to make a AWS Laboratory using LabMicroservices Profile, I need that you create a python script to review Phase 7, you receive Profile name as input; the name of the file is script2phase7.py
