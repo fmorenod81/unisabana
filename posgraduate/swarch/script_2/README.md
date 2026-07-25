@@ -1,6 +1,6 @@
 ## LEER SOLUCION
 
-* Instalar Python. Version probada fue Python 3.9.11 en Windows 11 H2. Dentro de los requirimientos de ejecucion de este Python esta la instalacion de boto3. Revisar la instalacion en su sistema operativo.
+* Instalar Python. Version probada fue Python 3.9.11 en Windows 11 H2. Dentro de los requirimientos de ejecucion de este Python esta la instalacion de boto3 y para la fase 10 hay un [README especial](./README_PHASE10.md). Revisar la instalacion en su sistema operativo.
   
 * Instalar el AWS CLI y configurarlo de manera adecuada con el AWS Academy [Ejemplo de Configuracion en el AWS Academy](./Requisites2.png).
   
@@ -18,28 +18,39 @@
 
     https://jayeshrajput.hashnode.dev/mastering-aws-building-microservices-and-cicd-pipelines-for-scalable-applications
 
-* La salida de todos los scripts esta [aqui](./Salida.txt)
+* Un ejemplo de la salida de todos los scripts esta [aqui](./franciscomodi.log)
+
+* La ejecucion de la fase 10 es para tomar los pantallazos de ejecucion; y al finalizar se subiran los resultados a la pagina web estatica.
 
 * La manera de ejecutar cada script es la misma, ejemplo
 
-python script2phase2.py LabMicroservices 
+python script2phase2.py franciscomodi 
 
 * La union de todos los scripts fue asi:
   
-python script2phase2.py LabMicroservices >Salida.txt
+python script2phase2.py franciscomodi >franciscomodi
 
-python script2phase3.py LabMicroservices >>Salida.txt
+python script2phase3.py franciscomodi >>franciscomodi.log
 
-python script2phase4.py LabMicroservices >>Salida.txt
+python script2phase4.py franciscomodi >>franciscomodi.log
 
-python script2phase5.py LabMicroservices >>Salida.txt
+python script2phase5.py franciscomodi >>franciscomodi.log
 
-python script2phase6.py LabMicroservices >>Salida.txt
+python script2phase6.py franciscomodi >>franciscomodi.log
 
-python script2phase7.py LabMicroservices >>Salida.txt
+python script2phase7.py franciscomodi >>franciscomodi.log
 
-python script2phase8.py LabMicroservices >>Salida.txt
+python script2phase8.py franciscomodi >>franciscomodi.log
 
-python script2phase9.py LabMicroservices >>Salida.txt
+python script2phase9.py franciscomodi >>franciscomodi.log
+
+python script2phase10.py franciscomodi >>franciscomodi.log
 
 * Para el envio de las credenciales al profesor se hara por un formulario de Microsoft Forms. Un ejemplo de como funcionara estara en: https://forms.office.com/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpURjQ5SEU4VlZXTE0yRlgwRFM5WUJUNlgzUi4u
+
+* Formulario Sabado 25-Julio: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpURjQ5SEU4VlZXTE0yRlgwRFM5WUJUNlgzUi4u
+
+* Formulario Domingo 26-Julio: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpURDQ5VkxLWDhKN1g3WUdCMFNJNEo0NFFGRC4u
+
+* La ruta donde quedara el registro de la ultima ejecucion estara disponible en:  http://testfmorenodpublichtml.s3-website-us-east-1.amazonaws.com/<nombre_de_usuario>/ el mismo que fue incluido en el formulario, por ejemplo, http://testfmorenodpublichtml.s3-website-us-east-1.amazonaws.com/franciscomodi/
+
