@@ -15,3 +15,4 @@ Quiz*.md
 terraform.tfvars
 aidemos/exercises/TF_exercise6c2/.terraform.tfstate.lock.info
 posgraduate/swarch/cap2-sg
+posgraduate/swarch/script_2/execution/
