@@ -15,4 +15,8 @@ Quiz*.md
 terraform.tfvars
 aidemos/exercises/TF_exercise6c2/.terraform.tfstate.lock.info
 posgraduate/swarch/cap2-sg
-posgraduate/swarch/script_2/execution/
+posgraduate/swarch/script_2/execution*/
+posgraduate/swarch/script_2/take_config.py
+posgraduate/swarch/script_2/create_run_script.py
+posgraduate/swarch/script_2/template.tpy
+posgraduate/swarch/script_2/generate_index.py
