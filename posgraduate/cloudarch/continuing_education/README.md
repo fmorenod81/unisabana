@@ -443,9 +443,9 @@ Fecha|Modulos|Tema|Corte?|
 
 [Using dead-letter queues in Amazon SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html)
 
-![Mandatory](../img/mandatory.png)[Amazon SQS short and long polling](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-short-and-long-polling.html)
+![Mandatory](../../../img/mandatory.png)[Amazon SQS short and long polling](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-short-and-long-polling.html)
 
-![Mandatory](../img/mandatory.png)[Amazon SQS visibility timeout](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html)
+![Mandatory](../../../img/mandatory.png)[Amazon SQS visibility timeout](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html)
 
 [Sending mobile push notifications with Amazon SNS](https://docs.aws.amazon.com/sns/latest/dg/sns-mobile-application-as-subscriber.html#sns-user-notifications-process-overview)
 
@@ -529,7 +529,7 @@ Fecha|Modulos|Tema|Corte?|
 
 [Announcing Amazon Managed Service for Apache Flink Renamed from Amazon Kinesis Data Analytics](https://aws.amazon.com/blogs/aws/announcing-amazon-managed-service-for-apache-flink-renamed-from-amazon-kinesis-data-analytics/)
 
-![Mandatory](../img/mandatory.png)[KDS:Handle duplicate records](https://docs.aws.amazon.com/streams/latest/dev/kinesis-record-processor-duplicates.html)
+![Mandatory](../../../img/mandatory.png)[KDS:Handle duplicate records](https://docs.aws.amazon.com/streams/latest/dev/kinesis-record-processor-duplicates.html)
 
 [LakeFormation:Federating into external data sources in the AWS Glue Data Catalog](https://docs.aws.amazon.com/lake-formation/latest/dg/federated-catalog-data-connection.html)
 
