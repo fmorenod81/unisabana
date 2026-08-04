@@ -8,15 +8,12 @@ cloudarch_20261.md
   - [Module 2 - Introducing Cloud Architecting](#module-2---introducing-cloud-architecting)
   - [Module 3 - Securing Access](#module-3---securing-access)
   - [Module 4 - Adding a Storage Layer with Amazon S3](#module-4---adding-a-storage-layer-with-amazon-s3)
-    - [Code Assistant](#code-assistant)
   - [Module 5 - Adding a Compute Layer Using Amazon EC2](#module-5---adding-a-compute-layer-using-amazon-ec2)
-    - [Pregunta](#pregunta)
   - [Module 6 - Adding a Database Layer](#module-6---adding-a-database-layer)
   - [Module 7 - Creating a Networking Environment](#module-7---creating-a-networking-environment)
   - [Module 8 - Connecting Networks](#module-8---connecting-networks)
   - [Module 9 - Securing User, Application, and Data Access](#module-9---securing-user-application-and-data-access)
   - [Module 10 - Implementing Monitoring, Elasticity, and High Availability](#module-10---implementing-monitoring-elasticity-and-high-availability)
-    - [Pregunta](#pregunta-1)
   - [Module 11 - Automating Your Architecture](#module-11---automating-your-architecture)
   - [Module 12 - Caching Content](#module-12---caching-content)
   - [Module 13 - Building Decoupled Architectures](#module-13---building-decoupled-architectures)
@@ -37,7 +34,7 @@ Fecha|Modulos|Tema|Corte?|
 04-Sep|11, 12  | Automating Your Architecture, Caching Content||
 11-Sep|13, 14  | Building Decoupled Architectures; Building Serverless Architectures and Microservices||
 18-Sep|15, 16  | Data Engineering Patterns, Planning for Disaster||
-25-Sep|17     | Bridging to Certification| Corte 2: Mod 9 - 17 and Exam (27 de Septiembre)|
+25-Sep|17      | Bridging to Certification| Corte 2: Mod 9 - 17 and Exam (27 de Septiembre)|
 
 # Mindmap
 
@@ -163,12 +160,6 @@ Fecha|Modulos|Tema|Corte?|
 
 [Block device mappings for volumes on Amazon EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/block-device-mapping-concepts.html)
 
-### Code Assistant
-
-[Gemini on VSCode](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/q-in-IDE-setup.html)
-
-[Amazon Q on VSCode](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/q-in-IDE-setup.html)
-
 ## Module 5 - Adding a Compute Layer Using Amazon EC2
 
 [Compute for any workload](https://aws.amazon.com/products/compute/)
@@ -202,13 +193,6 @@ Fecha|Modulos|Tema|Corte?|
 [EC2 Instances with Instance Store](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-store-volumes.html)
 
 ![Mandatory](../../../img/mandatory.png)[Choosing an AWS storage service](https://docs.aws.amazon.com/decision-guides/latest/storage-on-aws-how-to-choose/choosing-aws-storage-service.html)
-
-### Pregunta
-Q: Que protocolos de comunicacion comunes existen para los Block Storage  y los File System Storage?
-R:/ iSCSI, NVMe-oF y FC para los Block Storage; y NFS (v3 a 4.1 para Linux Principalmente), SMB / CIFS (Windows Principalmente) y Lustre / BeeGFS (para HPC) para los File System.
-
-Q: Que tipos de sistemas de archivos populares existen para los File System?
-R:/ Sistemas de archivos POSIX-compliant y Windows Native. Entre ellos estan: Linux con ext4, XFS, ZFS, Btrfs; y Windows con FAT16, FAT32, exFAT, NTFS, ReFS.
 
 ![Mandatory](../../../img/mandatory.png)[EBS types](https://aws.amazon.com/ebs/volume-types/)
 
@@ -405,10 +389,6 @@ R:/ Sistemas de archivos POSIX-compliant y Windows Native. Entre ellos estan: Li
 [Create a launch template for an Auto Scaling group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-launch-template.html)
 
 
-### Pregunta
-
-Q: Que servicio puede servir para SRE ?
-R:/ Mirar el DevOps Agent Service, servicio agentico para usar como compania al SRE, [DevOps Agent](https://aws.amazon.com/devops-agent/).
 
 ## Module 11 - Automating Your Architecture
 
@@ -436,7 +416,6 @@ R:/ Mirar el DevOps Agent Service, servicio agentico para usar como compania al 
 
 [Dynamic Image Transformation for Amazon CloudFront](https://aws.amazon.com/solutions/implementations/dynamic-image-transformation-for-amazon-cloudfront/)
 
-[Pregunta: Existe Ingenieria Reversa para recursos en AWS ?](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/generate-IaC.html)
 
 ## Module 12 - Caching Content
 

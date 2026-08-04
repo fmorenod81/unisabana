@@ -10,7 +10,7 @@
 
 ![Current Courses](./img/current_course.png)  **Current Courses**:
 
-2026 - 2 / **[Postgraduate - Diplomado en Arquitectura de Software]** Arquitectura de Nube ![Mandatory](./img/book.png)[Dates on the Page](./posgraduate/swarch/README.md)
+2026 - 2 / **[Postgraduate - Diplomado en Arquitectura de Software]** Arquitectura de Nube ![Mandatory](./img/book.png)[Dates on the Page](./posgraduate/cloudarch/continuing_education/README.md)
 
 2026 - 2 / **[Postgraduate - Maestria en Arquitectura de Software]** Arquitectura de Software II ![Mandatory](./img/book.png)[Tuesday: 10960
 and Wednesday: 10963 (Assistants, too)](./posgraduate/swarch/README.md)
