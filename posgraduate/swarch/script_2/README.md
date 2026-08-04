@@ -58,11 +58,17 @@ Los Formularios permiten el llenado de informacion a las 6 AM y cierran accesos 
 
 * Formulario Domingo 2-Agosto: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUMlpMMDhEUlg2TzNFUzdKQVE1VFZLMjRWSi4u
 
-* Formulario Viernes 7-Agosto: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUMkxLR1ZBRjRUWTE0UFlMMkw4S1VSWkFTWi4u
+* Formulario Viernes 4-Agosto (Cierra 8pm): https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUQ1ZIN0ZGMkxRSDM5T0FXRlQ4WFNMRUxDWi4u
 
-* Formulario Sabado 8-Agosto: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUMlJHOUNSNTlXVzZBNVNGMTZWUE9GRU4wNi4u
+* Formulario Viernes 5-Agosto (Cierra 8pm): https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUODJISDBQRTlDWVVNNE5XWlA0RlZWVzRTVi4u
 
-* Formulario Domingo 9-Agosto: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUNlM3Q1pWTU1MOUIxUU5KQ0NSQ1gxVUhEQi4u
+* Formulario Viernes 6-Agosto (Cierra 8pm): https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUOVpYQ1BERE1aTlBCRzZFQjVZRFVDQjRWQS4u
+
+* Formulario Viernes 7-Agosto (Cierra 5pm): https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUMkxLR1ZBRjRUWTE0UFlMMkw4S1VSWkFTWi4u
+
+* Formulario Sabado 8-Agosto (Cierra 5pm): https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUMlJHOUNSNTlXVzZBNVNGMTZWUE9GRU4wNi4u
+
+* Formulario Domingo 9-Agosto (Cierra 5pm): https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUNlM3Q1pWTU1MOUIxUU5KQ0NSQ1gxVUhEQi4u
 
 
 * La ruta donde quedara el registro de la ultima ejecucion estara disponible en:  http://testfmorenodpublichtml.s3-website-us-east-1.amazonaws.com/<nombre_de_usuario>/ el mismo que fue incluido en el formulario, por ejemplo, http://testfmorenodpublichtml.s3-website-us-east-1.amazonaws.com/franciscomodi/
