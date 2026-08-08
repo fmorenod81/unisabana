@@ -113,7 +113,7 @@ saa-c03_20261.md
 
 [Demo S3 Transfer Acceleration](https://awsacademy.instructure.com/courses/108774/modules/items/10191003)
 
-[S3 Express One Zone vs S3 Standard Workshop](https://catalog.workshops.aws/comparing-s3-standard-and-s3-express-one-zone-storage-classes/en-US)
+[S3 Express One Zone](https://aws.amazon.com/s3/storage-classes/express-one-zone/)
 
 ![Mandatory](../img/mandatory.png)[Strong Consistency](https://aws.amazon.com/s3/consistency/)
 
