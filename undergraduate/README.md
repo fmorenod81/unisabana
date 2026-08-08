@@ -106,6 +106,9 @@ saa-c03_20261.md
 
 ## Module 4 - Adding a Storage Layer with Amazon S3
 
+![Mandatory](../img/mandatory.png)[No More Globally Unique S3 Bucket Names? How the New S3 Namespace Update Changes System Design for Developers](https://builder.aws.com/content/2qmneJ5NMIgupiSetX9n6OZfIL0/no-more-globally-unique-s3-bucket-names-how-the-new-s3-namespace-update-changes-system-design-for-developers)
+
+
 ![Mandatory](../img/mandatory.png)[Uploading and copying objects using multipart upload in Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html)
 
 [Demo S3 Transfer Acceleration](https://awsacademy.instructure.com/courses/108774/modules/items/10191003)
