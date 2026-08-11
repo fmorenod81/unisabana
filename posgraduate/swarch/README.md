@@ -30,6 +30,10 @@ softarch2_20262.md
 
 ![Mandatory](../../img/ppt.png)[Modulo 2: Microservicios](./m2_Microservices.pdf)
 
+![Mandatory](../../img/ppt.png)[Modulo 2: Microservicios_Continuacion](./m2_Microservices_2.pdf)
+
+![Mandatory](../../img/ppt.png)[Modulo 2: Spec-Driven Development](./m2_Spec_Driven_Devevelopment.pdf)
+
 ![Mandatory](../../img/ppt.png)[Modulo 3: Sistemas Distribuidos](./m3_Distributed_Systems.pdf)
 
 ![Mandatory](../../img/ppt.png)[Modulo 4: Liderazgo en Arquitectura](./m4_Leadership.pdf)
