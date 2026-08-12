@@ -11,6 +11,8 @@ softarch2_20262.md
   - [Liderazgo en Arquitectura](#liderazgo-en-arquitectura)
     - [Ideas en industrias sugeridas](#ideas-en-industrias-sugeridas)
 - [Links Interesantes](#links-interesantes)
+- [Preguntas](#preguntas)
+    - [Q1. Diferencia entre Coreografia y EDA ?](#q1-diferencia-entre-coreografia-y-eda-)
 
 # MindMap
 
@@ -266,3 +268,8 @@ La idea inicial es que realice el Architectural Kata y el ADR de la empresa o en
 
 [Choosing the Right DynamoDB Partition Key, AWS Database Blog](https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/)
 
+# Preguntas
+
+### Q1. Diferencia entre Coreografia y EDA ? ###
+
+R:/ EDA Puede usar 2 modelos de coordinacion: Coreografia y Orquestacion. El primero no tiene componente central y maneja eventos para disparar acciones, mientras que el segundo necesita un componente centralizador y maneja comandos. El patron que hace EDA con Orquestacion se llamada Mediator Pattern. - Respuesta en proceso-
