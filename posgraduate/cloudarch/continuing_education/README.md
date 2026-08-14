@@ -27,7 +27,9 @@ cloudarch_20261.md
 Fecha|Modulos|Tema|Corte?|
 --|--|--|--
 03-Aug| 0, 1, 2| Introduction to the course, Welcome to AWS Academy Cloud Architecting; Introducing Cloud Architecting||
-10-Aug| 3, 4   | Securing Access; Adding a Storage Layer with Amazon S3;||
+10-Aug| 3      | Securing Access||
+14-Aug| 4, 5   | Adding a Storage Layer with Amazon S3; Adding a Compute Layer Using Amazon EC2||
+---   | -, -   | RealTime Execution||
 14-Aug| 5, 6   | Adding a Compute Layer Using Amazon EC2; Adding a Database Layer||
 21-Aug| 7, 8   | Creating a Networking Environment; Connecting Networks||
 28-Aug| 9, 10  | Securing User, Application, and Data Access; Implementing Monitoring, Elasticity, and High Availability|Corte 1: Mod 1 - 8|
@@ -200,6 +202,10 @@ Fecha|Modulos|Tema|Corte?|
 
 [A Decade of Ever-Increasing Provisioned IOPS for Amazon EBS](https://aws.amazon.com/blogs/aws/a-decade-of-ever-increasing-provisioned-iops-for-amazon-ebs/)
 
+[Elastic Fabric Adapter (EFA) Cheat Sheet on TutorialDojo](https://tutorialsdojo.com/elastic-fabric-adapter-efa/)
+
+[Enable enhanced networking with ENA on your EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/enhanced-networking-ena.html)
+
 [Attach an EBS volume to multiple EC2 instances using Multi-Attach](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volumes-multi.html)
 
 ![New](../../../img/new.png)[What’s New in AWS Free Tier (2025)](https://dev.to/aws-builders/whats-new-in-aws-free-tier-2025-2ba5)
@@ -208,9 +214,13 @@ Fecha|Modulos|Tema|Corte?|
 
 [Creating or deleting mount targets in a VPC: If the VPC has multiple subnets in an Availability Zone, you can create a mount target in only one of those subnets. All EC2 instances in the Availability Zone can share the single mount target](https://docs.aws.amazon.com/efs/latest/ug/manage-fs-access-create-delete-mount-targets.html)
 
+[Dedicated Hosts vs Instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/dedicated-hosts-overview.html)
+
 [The History of Pets vs Cattle and How to Use the Analogy Properly](https://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/)
 
 [Placement strategies for your placement groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-strategies.html)
+
+[Savings Plan Types](https://docs.aws.amazon.com/savingsplans/latest/userguide/plan-types.html)
 
 [Explicacion de Spot Instances en un Bar](https://youtu.be/mgWZls55ATs?t=17)
 
@@ -614,3 +624,4 @@ Fecha|Modulos|Tema|Corte?|
 [Workshops](https://workshops.aws/)
 
 [Events](https://aws-experience.com/latam/smb/events)
+
