@@ -28,10 +28,9 @@ Fecha|Modulos|Tema|Corte?|
 --|--|--|--
 03-Aug| 0, 1, 2| Introduction to the course, Welcome to AWS Academy Cloud Architecting; Introducing Cloud Architecting||
 10-Aug| 3      | Securing Access||
-14-Aug| 4, 5   | Adding a Storage Layer with Amazon S3; Adding a Compute Layer Using Amazon EC2||
----   | -, -   | RealTime Execution||
-14-Aug| 5, 6   | Adding a Compute Layer Using Amazon EC2; Adding a Database Layer||
-21-Aug| 7, 8   | Creating a Networking Environment; Connecting Networks||
+14-Aug| 4, 5   | Adding a Storage Layer with Amazon S3; Adding a Compute Layer Using Amazon EC2 (Quedamos en slide 52)||
+---   | -      | En Ejecucion ||
+21-Aug| 6, 7, 8| Adding a Database Layer, Creating a Networking Environment; Connecting Networks||
 28-Aug| 9, 10  | Securing User, Application, and Data Access; Implementing Monitoring, Elasticity, and High Availability|Corte 1: Mod 1 - 8|
 04-Sep|11, 12  | Automating Your Architecture, Caching Content||
 11-Sep|13, 14  | Building Decoupled Architectures; Building Serverless Architectures and Microservices||
