@@ -147,7 +147,7 @@ Fecha|Modulos|Tema|Corte?|
 
 ![Mandatory](../../../img/mandatory.png)[No More Globally Unique S3 Bucket Names? How the New S3 Namespace Update Changes System Design for Developers](https://builder.aws.com/content/2qmneJ5NMIgupiSetX9n6OZfIL0/no-more-globally-unique-s3-bucket-names-how-the-new-s3-namespace-update-changes-system-design-for-developers)
 
-[S3 Express One Zone vs S3 Standard Workshop](https://catalog.workshops.aws/comparing-s3-standard-and-s3-express-one-zone-storage-classes/en-US)
+
 
 ![New](../../../img/new.png)[Amazon S3 Express One Zone storage class](https://aws.amazon.com/s3/storage-classes/express-one-zone/)
 
