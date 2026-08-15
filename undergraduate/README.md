@@ -30,6 +30,8 @@ saa-c03_20261.md
 
 [Certification Badges *Instructor* AWS](https://www.credly.com/users/francisco-javier-moreno-diaz)
 
+[Certification Badges *Instructor* Oracle](../../../img/questions/CertView_FranciscoMoreno.jpg)
+
 [Study Badges *Instructor* AWS](https://app.pluralsight.com/profile/fmorenod)
 
 ![Mandatory](../img/ppt.png)[Personal Thoughs - PDF](./Personal_Thoughs_31012026.pdf)
@@ -108,12 +110,24 @@ saa-c03_20261.md
 
 ![Mandatory](../img/mandatory.png)[No More Globally Unique S3 Bucket Names? How the New S3 Namespace Update Changes System Design for Developers](https://builder.aws.com/content/2qmneJ5NMIgupiSetX9n6OZfIL0/no-more-globally-unique-s3-bucket-names-how-the-new-s3-namespace-update-changes-system-design-for-developers)
 
+![New](../img/new.png)[Amazon S3 Express One Zone storage class](https://aws.amazon.com/s3/storage-classes/express-one-zone/)
+
+![New](../img/new.png)[S3 Compare Pricing between storage classes](https://aws.amazon.com/es/s3/pricing/)
+
+![New](../img/new.png)[Performance guidelines for Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance-guidelines.html)
+
+![New](../img/new.png)[Amazon Simple Storage Service endpoints and quotas](https://docs.aws.amazon.com/general/latest/gr/s3.html)
+
+![New](../img/new.png)[Working with directory buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/directory-buckets-overview.html)
+
+![New](../img/new.png)[Working with Amazon S3 Tables and table buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables.html)
+
+![New](../img/new.png)[Working with S3 Vectors and vector buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors.html)
+
 
 ![Mandatory](../img/mandatory.png)[Uploading and copying objects using multipart upload in Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html)
 
 [Demo S3 Transfer Acceleration](https://awsacademy.instructure.com/courses/108774/modules/items/10191003)
-
-[S3 Express One Zone](https://aws.amazon.com/s3/storage-classes/express-one-zone/)
 
 ![Mandatory](../img/mandatory.png)[Strong Consistency](https://aws.amazon.com/s3/consistency/)
 
@@ -178,19 +192,25 @@ ArnNotLike on aws:PrincipalArn for arn:aws:iam::account_id:root — explicitly e
 
 [EC2 Instances with Instance Store](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-store-volumes.html)
 
+![Mandatory](../img/mandatory.png)[Choosing an AWS storage service](https://docs.aws.amazon.com/decision-guides/latest/storage-on-aws-how-to-choose/choosing-aws-storage-service.html)
+
 ![Mandatory](../img/mandatory.png)[EBS types](https://aws.amazon.com/ebs/volume-types/)
 
 [A Decade of Ever-Increasing Provisioned IOPS for Amazon EBS](https://aws.amazon.com/blogs/aws/a-decade-of-ever-increasing-provisioned-iops-for-amazon-ebs/)
 
 [Attach an EBS volume to multiple EC2 instances using Multi-Attach](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volumes-multi.html)
 
+![New](../img/new.png)[What’s New in AWS Free Tier (2025)](https://dev.to/aws-builders/whats-new-in-aws-free-tier-2025-2ba5)
+
 ![Mandatory](../img/mandatory.png)[Depreceated: OpsWorks for Puppet and Chef - En Español](https://docs.aws.amazon.com/es_es/opsworks/latest/userguide/welcome.html)
 
 [Creating or deleting mount targets in a VPC: If the VPC has multiple subnets in an Availability Zone, you can create a mount target in only one of those subnets. All EC2 instances in the Availability Zone can share the single mount target](https://docs.aws.amazon.com/efs/latest/ug/manage-fs-access-create-delete-mount-targets.html)
+[Dedicated Hosts vs Instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/dedicated-hosts-overview.html)
 
 [The History of Pets vs Cattle and How to Use the Analogy Properly](https://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/)
 
 [Placement strategies for your placement groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-strategies.html)
+[Savings Plan Types](https://docs.aws.amazon.com/savingsplans/latest/userguide/plan-types.html)
 
 [Explicacion de Spot Instances en un Bar](https://youtu.be/mgWZls55ATs?t=17)
 
@@ -201,6 +221,8 @@ ArnNotLike on aws:PrincipalArn for arn:aws:iam::account_id:root — explicitly e
 [RDS Official Page - Features](https://aws.amazon.com/rds/features/)
 
 ![Mandatory](../img/mandatory.png)[What’s the difference between an ACID and a BASE database?](https://aws.amazon.com/compare/the-difference-between-acid-and-base-database/)
+
+![Mandatory](../img/mandatory.png)[Supported DB engines for DB instance classes](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.Support.html)
 
 [CAP Theorem](https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/cap-theorem.html)
 
