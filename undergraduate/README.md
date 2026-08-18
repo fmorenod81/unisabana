@@ -1,6 +1,7 @@
 saa-c03_20261.md
 
 - [Mindmap](#mindmap)
+- [Module 0 - Interesting Links](#module-0---interesting-links)
 - [Module 1 - Welcome Instructor](#module-1---welcome-instructor)
 - [Module 2 - Introducing Cloud Architecting](#module-2---introducing-cloud-architecting)
 - [Module 3 - Securing Access](#module-3---securing-access)
@@ -26,6 +27,14 @@ saa-c03_20261.md
 
 ![Mandatory](../img/ppt.png)[XMind - This URL Can change](https://xmind.app/embed/HKtN3V)
 
+## Module 0 - Interesting Links
+
+[Last Week on AWS](https://www.lastweekinaws.com/)
+
+[TechWorld with Nana - Review Youtube!](https://www.techworld-with-nana.com/)
+
+[KodeKloud - Review Youtube!](https://kodekloud.com/)
+
 ## Module 1 - Welcome Instructor
 
 [Certification Badges *Instructor* AWS](https://www.credly.com/users/francisco-javier-moreno-diaz)
@@ -41,6 +50,7 @@ saa-c03_20261.md
 ![Mandatory](../img/book.png)[AWS Certified Solutions Architect Study Guide with 900 Practice Test Questions, 4th Edition](https://learning-oreilly-com.ez.unisabana.edu.co/library/view/aws-certified-solutions/9781119982623/)
 
 ![Mandatory](../img/video.png)[Skill Builder - Offer for 12 months](https://explore.skillbuilder.aws/learn/signin)
+
 
 ## Module 2 - Introducing Cloud Architecting
 
@@ -636,3 +646,5 @@ Suggested Prompt:
 [Workshops](https://workshops.aws/)
 
 [Events](https://aws-experience.com/latam/smb/events)
+
+
