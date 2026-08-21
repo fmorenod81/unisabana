@@ -320,6 +320,10 @@ ArnNotLike on aws:PrincipalArn for arn:aws:iam::account_id:root — explicitly e
 
 ![Mandatory](../img/mandatory.png)[Amazon Virtual Private Cloud Connectivity Options](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-direct-connect-aws-transit-gateway.html)
 
+![Mandatory](../../../img/mandatory.png)[Building an egress VPC with AWS Transit Gateway and the AWS CDK](https://aws.amazon.com/blogs/networking-and-content-delivery/building-an-egress-vpc-with-aws-transit-gateway-and-the-aws-cdk/)
+
+![Mandatory](../../../img/mandatory.png)[Centralized VPC inspection with Amazon VPC Route Server and AWS Transit Gateway](https://aws.amazon.com/blogs/networking-and-content-delivery/centralized-vpc-inspection-with-amazon-vpc-route-server-and-aws-transit-gateway/)
+
 ![Mandatory](../img/mandatory.png)[Scaling VPN throughput using AWS Transit Gateway](https://aws.amazon.com/blogs/networking-and-content-delivery/scaling-vpn-throughput-using-aws-transit-gateway/)
 
 [Create a private IP AWS Site-to-Site VPN over AWS Direct Connect: Step-by-step](https://docs.aws.amazon.com/vpn/latest/s2svpn/private-ip-dx-steps.html)
