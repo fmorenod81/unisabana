@@ -174,6 +174,8 @@ Prime Video Case (../../img/mandatory.png) [Adrian Cockcroft Blog](./Scaling%20u
 
 2027 - Semestre 2 Cohorte 2, se aplicara Caso B
 
+ ![Mandatory](../../img/ppt.png)[*LEA LAS LECCIONES APRENDIDAS*](./m13_Solutions.pdf)
+
 ### Diseño de base de datos no-relacionales
 
 Revisar su estado en AWS Academy Architecting Course, specially on Sandbox and review your current costs and compsution ![Mandatory](../../img/mandatory.png)[Guide](./Architecting_Sandbox_Account_Conditions.pdf)

@@ -16,7 +16,7 @@ Para la generacion de datos ficticia pueden usar GenAI, y pueden basarse en dato
 
 Existen opciones para hacer el test, en la Guia de Actividades de Unisabana e-Learning mencione JMeter, Gatling, pero tambien puede usar otros por ejemplo, k6. En el documento de entrega, mencionar justificar su  seleccion de herramientas, ademas de explicar brevemente el script. NO NECESITO EL SCRIPT O LA MANERA DE PROBARLO, quisiera que pudiera mencionar como lo realizo.
 
-El script definitivo se publicara el viernes 14 de Agosto y los formularios de Forms Office con las fechas se haran desde el miercoles 19 de Agosto, y se ejecutaran a las 5 pm todos los dias hasta la fecha de cortes, 23 de Agosto. La idea es que traiga preguntas a la clase del martes o miercoles sobre esta actividad.
+El script definitivo se publicara el viernes 14 de Agosto y los formularios de Forms Office con las fechas se haran desde el lunes 24 de Agosto, y se ejecutaran a las 5 pm (ver excepciones en listado al final) todos los dias hasta la fecha de cortes, 2 de Septiembre. La idea es que traiga preguntas a la clase del martes o miercoles sobre esta actividad.
 
 *El modelamiento (UML, APIs Design) si aplica para los 3 casos de uso, en la actividad del modelamiento en AWS Dynamodb (lo que monta en la cuenta de Sandbox) seleccione uno de ellos y apliquelo*
 

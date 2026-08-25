@@ -210,13 +210,20 @@ def main():
         default="us-east-1",
         help="Región de AWS (por defecto: us-east-1)",
     )
+    parser.add_argument(
+        "--profile",
+        type=str,
+        default=None,
+        help="Perfil de AWS (opcional)",
+    )
 
     args = parser.parse_args()
 
     try:
-        dynamodb_client = boto3.client("dynamodb", region_name=args.region)
-        dynamodb_resource = boto3.resource("dynamodb", region_name=args.region)
-        autoscaling_client = boto3.client("application-autoscaling", region_name=args.region)
+        session = boto3.Session(profile_name=args.profile, region_name=args.region)
+        dynamodb_client = session.client("dynamodb")
+        dynamodb_resource = session.resource("dynamodb")
+        autoscaling_client = session.client("application-autoscaling")
 
         describe_detailed_provisioning(dynamodb_client, autoscaling_client, args.table_name)
         sample_table_items(dynamodb_resource, args.table_name, limit=5)
