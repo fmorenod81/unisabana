@@ -20,3 +20,7 @@ posgraduate/swarch/script_2/take_config.py
 posgraduate/swarch/script_2/create_run_script.py
 posgraduate/swarch/script_2/template.tpy
 posgraduate/swarch/script_2/generate_index.py
+posgraduate/swarch/script_3/take_config.py
+posgraduate/swarch/script_3/create_run_script.py
+posgraduate/swarch/script_3/template.tpy
+posgraduate/swarch/script_3/generate_index.py

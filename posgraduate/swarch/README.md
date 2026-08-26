@@ -13,6 +13,8 @@ softarch2_20262.md
 - [Links Interesantes](#links-interesantes)
 - [Preguntas](#preguntas)
     - [Q1. Diferencia entre Coreografia y EDA ?](#q1-diferencia-entre-coreografia-y-eda-)
+- [Resultados de las Entrevistas](#resultados-de-las-entrevistas)
+    - [Yury Niño, Google](#yury-niño-google)
 
 # MindMap
 
@@ -174,7 +176,7 @@ Prime Video Case (../../img/mandatory.png) [Adrian Cockcroft Blog](./Scaling%20u
 
 2027 - Semestre 2 Cohorte 2, se aplicara Caso B
 
- ![Mandatory](../../img/ppt.png)[*LEA LAS LECCIONES APRENDIDAS*](./m13_Solutions.pdf)
+![Mandatory](../../img/ppt.png)[*LEA LAS LECCIONES APRENDIDAS*](./m13_Solutions.pdf)
 
 ### Diseño de base de datos no-relacionales
 
@@ -208,6 +210,8 @@ TBD
 </details>
 
 ## Liderazgo en Arquitectura
+
+![Mandatory](../../img/ppt.png)[*LEA LAS LECCIONES APRENDIDAS*](./m13_Solutions.pdf)
 
 La idea inicial es que realice el Architectural Kata y el ADR de la empresa o en la industria donde labora, recuerde que no puede entregar informacion sensible o algo que identifique univocamente su empresa. En caso contrario, aquie puede encontrar un listado de ideas para la Kata y el ADR por industria:
 
@@ -277,3 +281,16 @@ La idea inicial es que realice el Architectural Kata y el ADR de la empresa o en
 R:/ Event-Driven Architecture Puede usar 2 modelos de coordinacion: Coreografia y Orquestacion. Simplificando, el primero no tiene componente central y maneja eventos para disparar acciones, mientras que el segundo necesita un componente centralizador y maneja eventos/comandos. El patron que hace EDA con Orquestacion se llamada Mediator Pattern. Una buena respuesta esta en FoSA, Chap. 15, Style Specifications, incluso los mismos autores entregan otra descripcion en The Software Architecture, The Hard Parts, Chap. 11 donde encuentra un comparativo de los 2 modelos de coordinacion o comunicacion (Coreografia vs Orquestacion). Adicionalmente, puedes ver a Chris Richardson en https://microservices.io/patterns/data/saga.html explicando ambos metodos en transacciones distribuidos. Para finalizar, mi comentario es que EDA (arquitectura) puede ser coreografiado u orquestado (modelo de coordinacion), pero toda arquitectura que tenga coreografia tiene un estilo EDA.
 
 Del ultimo modulo de la ultima clase se pueden patrones aplicado al estilo de microservicios en [Cloud design patterns, architectures, and implementations](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/saga-choreography.html) y de las 2 opciones que mencione en esta respuesta en [Integrating microservices by using AWS serverless services](https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-integrating-microservices/introduction.html)
+
+# Resultados de las Entrevistas
+
+### Yury Niño, Google
+
+[Linkedin](https://www.linkedin.com/in/yurynino/)
+
+[Youtube](https://www.youtube.com/@yuryninoroa/videos)
+
+[The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence](https://www.amazon.com/dp/0593831845?lv=shuf&channelId=500&plpRedirect=mhFallback)
+
+
+
