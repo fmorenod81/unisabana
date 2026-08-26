@@ -1,4 +1,7 @@
-## LEER SOLUCION
+## LEER LECCIONES APRENDIDAS
+
+![Mandatory](../../../img/ppt.png)[*LEA LAS LECCIONES APRENDIDAS*](./m13_Solutions.pdf)
+
 
 Esta actividad es *individual* para hacer la solucion puede mirar entornos de desarrollo locales puede usar:
 
@@ -16,9 +19,19 @@ Para la generacion de datos ficticia pueden usar GenAI, y pueden basarse en dato
 
 Existen opciones para hacer el test, en la Guia de Actividades de Unisabana e-Learning mencione JMeter, Gatling, pero tambien puede usar otros por ejemplo, k6. En el documento de entrega, mencionar justificar su  seleccion de herramientas, ademas de explicar brevemente el script. NO NECESITO EL SCRIPT O LA MANERA DE PROBARLO, quisiera que pudiera mencionar como lo realizo.
 
-El script definitivo se publicara el viernes 14 de Agosto y los formularios de Forms Office con las fechas se haran desde el lunes 24 de Agosto, y se ejecutaran a las 5 pm (ver excepciones en listado al final) todos los dias hasta la fecha de cortes, 2 de Septiembre. La idea es que traiga preguntas a la clase del martes o miercoles sobre esta actividad.
+El script definitivo se publicara el viernes 25 de Agosto y los formularios de Forms Office con las fechas se haran desde el miercoles 26 de Agosto, y se ejecutaran a las 7 pm (ver excepciones en listado al final) todos los dias hasta la fecha de cortes, 2 de Septiembre. La idea es que traiga preguntas a la clase del martes o miercoles sobre esta actividad.
 
 *El modelamiento (UML, APIs Design) si aplica para los 3 casos de uso, en la actividad del modelamiento en AWS Dynamodb (lo que monta en la cuenta de Sandbox) seleccione uno de ellos y apliquelo*
+
+
+Como se usa el script
+
+python script3phase1.py --profile <NOMBRE_DEL_PROFILE> <NOMBRE_TABLA_DYNAMODB>
+
+Reemplazar los valores adecuadamente.
+
+**El script no hace comprobaciones, unicamente es la evidencia que Ud. monto el mismo diseño que presenta en el documento y cuantos registros cargo**
+
 
 Los Formularios permiten el llenado de informacion a las 6 AM y cierran accesos a las 7 PM COT. Ejecutare a las 7 PM COT.
 
