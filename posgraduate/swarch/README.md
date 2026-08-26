@@ -15,6 +15,7 @@ softarch2_20262.md
     - [Q1. Diferencia entre Coreografia y EDA ?](#q1-diferencia-entre-coreografia-y-eda-)
 - [Resultados de las Entrevistas](#resultados-de-las-entrevistas)
     - [Yury Niño, Google](#yury-niño-google)
+      - [Libros](#libros)
 
 # MindMap
 
@@ -290,7 +291,13 @@ Del ultimo modulo de la ultima clase se pueden patrones aplicado al estilo de mi
 
 [Youtube](https://www.youtube.com/@yuryninoroa/videos)
 
-[The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence](https://www.amazon.com/dp/0593831845?lv=shuf&channelId=500&plpRedirect=mhFallback)
+[Su Presentacion en PPT](./YuryNino_UniSabana_Entrevista_Arquitectura_Empresarial.pdf)
 
+[MIT Partnership for Systems Approaches to Safety and Security (PSASS) - MIT Course](https://psas.scripts.mit.edu/home/stamp-workshops/)
 
+#### Libros
+
+[The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence](https://www.amazon.com/Infinity-Machine-Hassabis-DeepMind-Superintelligence/dp/0593831845)
+
+[Dario Amodei- Architect of Safe Intelligence: A Revealing Look into the Mind Shaping the Future of AI and Our Place in It](https://www.amazon.com/-/es/Dario-Amodei-Architect-Safe-Intelligence/dp/B0FKZ5VQKW)
 

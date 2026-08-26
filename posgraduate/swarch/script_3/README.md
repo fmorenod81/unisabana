@@ -21,6 +21,14 @@ Existen opciones para hacer el test, en la Guia de Actividades de Unisabana e-Le
 
 El script definitivo se publicara el viernes 25 de Agosto y los formularios de Forms Office con las fechas se haran desde el miercoles 26 de Agosto, y se ejecutaran a las 7 pm (ver excepciones en listado al final) todos los dias hasta la fecha de cortes, 2 de Septiembre. La idea es que traiga preguntas a la clase del martes o miercoles sobre esta actividad.
 
+----
+## IMPORTANTE
+
+Mi sugerencia es que inicie con el caso de uso y luego el diseño del API, porque quiero que piensen en el flujo: en quien va a consumir (actor), a donde va a consumir (dispositivos o canales), dentro de su arquitectura va a ver componentes intermedios que sean consumidores (cache). Si cree que es mas facil describir concretamente la arquitectura o un diagrama con ello, no hay problema. Algunos grupos, presentaron el filtro de Bloom en la arquitectura, quizas eso le puede dar ideas del flujo.
+Para la prueba Ud. puede seleccionar lectura, escritura y mencionar que actor lo hace; y que almacena (datos) y como lo almacena (uso de indices).
+Es un ejercicio de inteligencia, no de metodo. Uds puede gastarse mucho en hacer la medicion, pero valorare mas como piensa el caso y como lo diseña. Para ello, lo calificare en Contenido (Verifique los saltos en la Guia de Actividades, ejemplo en ese item de 2.2 a 1.3). Pude usar la AI para darle ideas, pero el contexto y lo que se vive/vé en la calle o se imagine (pensar fuera de la casa), es lo que le da el valor al arquitecto.
+
+----
 *El modelamiento (UML, APIs Design) si aplica para los 3 casos de uso, en la actividad del modelamiento en AWS Dynamodb (lo que monta en la cuenta de Sandbox) seleccione uno de ellos y apliquelo*
 
 
