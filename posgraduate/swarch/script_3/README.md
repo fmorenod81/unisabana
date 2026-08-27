@@ -36,7 +36,11 @@ Como se usa el script
 
 python script3phase1.py --profile <NOMBRE_DEL_PROFILE> <NOMBRE_TABLA_DYNAMODB>
 
-Reemplazar los valores adecuadamente.
+Reemplazar los valores adecuadamente. 
+
+Se pondra en la pagina web asi:
+
+
 
 **El script no hace comprobaciones, unicamente es la evidencia que Ud. monto el mismo diseño que presenta en el documento y cuantos registros cargo**
 
@@ -44,3 +48,26 @@ Reemplazar los valores adecuadamente.
 Los Formularios permiten el llenado de informacion a las 6 AM y cierran accesos a las 7 PM COT. Ejecutare a las 7 PM COT.
 
 * Formulario Lunes 24-Agosto: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUOTA5WUpFOVdMMkxJOURCMTY3ME5NRzZUTi4u
+
+
+Recordar esto al llenar el formulario: *El nombre del profile debera ser su nombre de usuario en Unisabana.* .Evite incomodar al resto de sus compañeros y al instructor
+
+Formulario de Retroalimentacion: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUM0FXNVIwUDlCU0xCUVpGTk1DQVhPV0VKWi4u
+
+Si no supera el umbral del 80%, unicamente sera para mi. Sino, informare los resultados a Unisabana sin ninguna modificacion.
+
+Formulario 26-Agosto: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpURU9TVzYyOFc0RzBYVVpJTkFNMlRXMEgxNy4u
+
+Formulario 27-Agosto: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpURDlMNVFKUERVNk03WjBTUDQ5MUJPM0wwOC4u
+
+Formulario 28-Agosto: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUNkRMWUVaRExQVkhNUUlCTzJCOVczVkVaUS4u
+
+Formulario 29-Agosto: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUMkk4MUNYNURaSU5TUkVRTFVUSlkxTjFHQy4u
+
+Formulario 30-Agosto: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUNzU3SUJKNVdSMTFFWEVNNVNWQ05ZWjBEOC4u
+
+Formulario 31-Agosto: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUQlhBS0cxWFZHWDdUWVhEUTAzM01GUzlHWi4u
+
+Formulario 1-Septiem: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpURU1KSDQ0UEtDM1RKOU1KQkozTjcxRkg5Ni4u
+
+Formulario 2-Septiem: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=MRalrP4ADUmRqxY--HJg7u7OXjM2wjRAkB_m26FrUqpUODVTNjFMNE5WWEFMNlEwMDNYTVgzNUs5Uy4u
