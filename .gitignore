@@ -20,9 +20,13 @@ posgraduate/swarch/script_2/take_config.py
 posgraduate/swarch/script_2/create_run_script.py
 posgraduate/swarch/script_2/template.tpy
 posgraduate/swarch/script_2/generate_index.py
+posgraduate/swarch/script_3/execution*/
 posgraduate/swarch/script_3/take_config.py
 posgraduate/swarch/script_3/create_run_script.py
 posgraduate/swarch/script_3/template.tpy
 posgraduate/swarch/script_3/generate_index.py
 posgraduate/swarch/script_3/run_all_profiles.bat
 posgraduate/swarch/script_3/execution24agosto/giovanirohu/generate_index.py
+posgraduate/swarch/script_3/hacer.py
+posgraduate/swarch/script_3/toexecute.csv
+posgraduate/swarch/script_3/generated_script.bat
