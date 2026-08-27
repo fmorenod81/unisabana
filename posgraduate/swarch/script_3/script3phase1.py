@@ -199,6 +199,26 @@ def sample_table_items(dynamodb_resource, table_name: str, limit: int = 5) -> No
         print(json.dumps(item, indent=2, cls=DecimalEncoder, ensure_ascii=False))
 
 
+def show_total_record_count(dynamodb_resource, table_name: str) -> None:
+    """Escanea la tabla para obtener el conteo exacto/real de registros y lo muestra."""
+    table = dynamodb_resource.Table(table_name)
+
+    print("\n==================================================================")
+    print(" REPORTE FINAL: CONTEO DE REGISTROS (MEDIANTE SCAN)")
+    print("==================================================================")
+    print("Escaneando la tabla para obtener el número total de registros real...")
+
+    count = 0
+    response = table.scan(Select="COUNT")
+    count += response.get("Count", 0)
+
+    while "LastEvaluatedKey" in response:
+        response = table.scan(Select="COUNT", ExclusiveStartKey=response["LastEvaluatedKey"])
+        count += response.get("Count", 0)
+
+    print(f"Número total de registros en la tabla: {count:,}")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Inspecciona métricas detalladas de aprovisionamiento, esquema y registros de una tabla en DynamoDB."
@@ -227,6 +247,7 @@ def main():
 
         describe_detailed_provisioning(dynamodb_client, autoscaling_client, args.table_name)
         sample_table_items(dynamodb_resource, args.table_name, limit=5)
+        show_total_record_count(dynamodb_resource, args.table_name)
 
     except ClientError as e:
         error_code = e.response["Error"]["Code"]
