@@ -539,6 +539,8 @@ Suggested Prompt:
 
 [Amazon API Gateway concepts](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-basic-concept.html)
 
+![Mandatory](../img/mandatory.png)[Choose between REST APIs and HTTP APIs](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html)
+
 [Amazon API Gateway - Explanation of API GW Deployments](https://digitalcloud.training/amazon-api-gateway/)
 
 [Serverless Application Lens, AWS Well-Architected Framework (Pag. 63)](https://docs.aws.amazon.com/pdfs/wellarchitected/latest/serverless-applications-lens/wellarchitected-serverless-applications-lens.pdf#welcome)

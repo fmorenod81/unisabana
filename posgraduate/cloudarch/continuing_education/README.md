@@ -55,6 +55,8 @@ Fecha|Modulos|Tema|Corte?|
 
 ![Mandatory](../../../img/ppt.png)[Additional Resources - PDF](./AWS_SAA_C03_Additional_Resources_31012026.pdf)
 
+![Mandatory](../../../img/ppt.png)[Spec-Driven Developer - PDF](./m2_Spec_Driven_Devevelopment.pdf)
+
 </details>
 
 # Links Interesantes
