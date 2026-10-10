@@ -51,6 +51,8 @@ saa-c03_20261.md
 
 ![Mandatory](../img/video.png)[Skill Builder - Offer for 12 months](https://explore.skillbuilder.aws/learn/signin)
 
+![Mandatory](../img/ppt.png)[Hiring Thoughts](./Hiring_Thoughs_10102026.pdf)
+
 
 ## Module 2 - Introducing Cloud Architecting
 
