@@ -35,6 +35,8 @@ saa-c03_20261.md
 
 [KodeKloud - Review Youtube!](https://kodekloud.com/)
 
+[SDD - Class on 24-October](./Spec_Driven_Dev_Class_v2_24102026.pdf)
+
 ## Module 1 - Welcome Instructor
 
 [Certification Badges *Instructor* AWS](https://www.credly.com/users/francisco-javier-moreno-diaz)
