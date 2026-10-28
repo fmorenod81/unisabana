@@ -1,6 +1,5 @@
 cloudarch_20261.md
 
-- [Fechas](#fechas)
 - [Mindmap](#mindmap)
 - [Presentaciones](#presentaciones)
 - [Links Interesantes](#links-interesantes)
@@ -25,19 +24,6 @@ cloudarch_20261.md
   - [Module 16 - Planning for Disaster](#module-16---planning-for-disaster)
   - [Module 17 - BridgingToCertification](#module-17---bridgingtocertification)
 
-# Fechas
-
-Fecha|Modulos|Tema|Corte?|
---|--|--|--
-11-Mar| 1, 2, 3| Welcome to AWS Academy Cloud Architecting; Introducing Cloud Architecting; Securing Access||
-18-Mar| 4, 5, 6| Adding a Storage Layer with Amazon S3; Adding a Compute Layer Using Amazon EC2; Adding a Database Layer||
-25-Mar| 7, 8   | Creating a Networking Environment; Connecting Networks|AWS Academy: Mod 1 - 8  ![Corte_oficial](../../../img/questions/Corte_1.png)|
-01-Apr|Sem.Sant|||
-08-Apr| 9,10,11| Securing User, Application, and Data Access; Implementing Monitoring, Elasticity, and High Availability; Automating Your Architecture||
-15-Apr|12,13,14| Caching Content; Building Decoupled Architectures; Building Serverless Architectures and Microservices||
-22-Apr| Libre  |||
-29-Apr|15,16,17| Data Engineering Patterns, Planning for Disaster; Bridging to Certification|AWS Academy: Mod 9-17 ![Corte_oficial](../../../img/questions/Corte_2.png)|
-
 # Mindmap
 
 ![Mandatory](../../../img/mindmap.png)[My own AWS SAA-C03 MindMap - XMind](https://xmind.app/embed/cKmaac/)
@@ -50,7 +36,7 @@ Fecha|Modulos|Tema|Corte?|
   <summary><b>Presentaciones del Curso</b></summary>
   <br>
 
-![Mandatory](../../../img/ppt.png)[Modulo 0: Introduccion al Curso](./m0_Intro_To_Course.pdf)
+![Mandatory](../../../img/ppt.png)[Modulo 0: Introduccion al Curso](./m0_Intro_To_Course_v2_29102026.pdf.pdf)
 
 </details>
 
@@ -63,10 +49,6 @@ Fecha|Modulos|Tema|Corte?|
 [Certification Badges *Instructor* Oracle](../../../img/questions/CertView_FranciscoMoreno.jpg)
 
 [Study Badges *Instructor* AWS](https://app.pluralsight.com/profile/fmorenod)
-
-![Mandatory](../../../img/ppt.png)[Personal Thoughs - PDF](./Personal_Thoughs_31012026.pdf)
-
-![Mandatory](../../../img/ppt.png)[Additional Resources - PDF](./AWS_SAA_C03_Additional_Resources_31012026.pdf)
 
 ![Mandatory](../../../img/book.png)[AWS Certified Solutions Architect Study Guide with 900 Practice Test Questions, 4th Edition](https://learning-oreilly-com.ez.unisabana.edu.co/library/view/aws-certified-solutions/9781119982623/)
 

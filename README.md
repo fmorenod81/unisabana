@@ -10,6 +10,8 @@
 
 ![Current Courses](./img/current_course.png)  **Current Courses**:
 
+2026 - 3 / **[Postgraduate - Maestria en Arquitectura de Software]** Arquitectura de Nube ![Mandatory](./img/book.png)[Tuesday: 10970](./posgraduate/cloudarch/master/README.md)
+
 2026 - 2 / **[Undergraduate - Ing. Informática]** Solutions Architect - SAA-C03 ![Mandatory](./img/book.png)[7 AM - Cod: 9499, 10 AM - Cod: 9498](./undergraduate/README.md)
 
 ![Past Courses](./img/old_courses.png)  **Inactive Courses**:
@@ -29,7 +31,7 @@ and Wednesday: 10963 (Assistants, too)](./posgraduate/swarch/README.md)
 
 2026 - 1 / **[Undergraduate - Ing. Informática]** Use of Code Assistant as Example![Mandatory](./img/book.png)[Images with Exercises](./aidemos/exercises/README.md)
 
-2026 - 1 / **[Postgraduate - Maestria en Arquitectura de Software ]** Arquitecturas en la Nube ![Mandatory](./img/book.png)[5 PM - Cod: 7464](./posgraduate/cloudarch/master/README.md)
+2026 - 1 / **[Postgraduate - Maestria en Arquitectura de Software ]** Arquitecturas en la Nube ![Mandatory](./img/book.png)[5 PM - Cod: 7464](./posgraduate/cloudarch/master/README_7464.md)
 
 2026 - 1 / **[Undergraduate - Ing. Informática]** Hiring Thoughts ![Mandatory](./img/ppt.png)[PDF File](./undergraduate/Hiring_Thoughs_02052026.pdf)
 
