@@ -25,6 +25,16 @@ Las modificaciones al codigo de Ben Piper fueron:
 
 
 
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/mysql-install-cli.html
+sudo dnf install mariadb105 -y
+mysql --version
+mysql -h terraform-20261031024252267100000001.cyfiyy9tw3jn.us-east-1.rds.amazonaws.com -P 3306 -u appdemo -p
+
+curl -o global-bundle.pem https://truststore.pki.rds.amazonaws.com/global/global-bundle.pem
+mysql -h terraform-20261031024252267100000001.cyfiyy9tw3jn.us-east-1.rds.amazonaws.com -P 3306 -u appdemo -p --ssl-mode=VERIFY_IDENTITY --ssl-ca=./global-bundle.pem
+
+appdemo1
+
 Para OCI 8
 sudo yum install git -y
 git clone https://github.com/fmorenod81/AWS_SAA_C03
