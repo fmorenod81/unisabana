@@ -14,7 +14,7 @@
 
 2026 - 2 / **[Undergraduate - Ing. Informática]** Solutions Architect - SAA-C03 ![Mandatory](./img/book.png)[7 AM - Cod: 9499, 10 AM - Cod: 9498](./undergraduate/README.md)
 
-2026 - 2 / **[Undergraduate - Ing. Informática]** Terraform Course ![Mandatory](./img/ppt.png)[PDF File](./undergraduate/Terraform_Class_31102026.pdf.pdf)
+2026 - 2 / **[Undergraduate - Ing. Informática]** Terraform Course ![Mandatory](./img/ppt.png)[PDF File](./undergraduate/Terraform_Class_31102026.pdf)
 
 
 ![Past Courses](./img/old_courses.png)  **Inactive Courses**:
