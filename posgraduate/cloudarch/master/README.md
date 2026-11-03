@@ -37,6 +37,9 @@ cloudarch_20261.md
 
 </details>
 
+
+* Enviar correo a *francisco.moreno2@unisababana.edu.co* el link del badge del AWS SAA-C03 que tiene que estar vigente a la fecha del examen final, con copia a la facilitadora. Solicitando la *exencion del examen final* solamente.
+
 # Links Interesantes
 
 ## Module 1 - Welcome Instructor
@@ -48,6 +51,9 @@ cloudarch_20261.md
 [Study Badges *Instructor* AWS](https://app.pluralsight.com/profile/fmorenod)
 
 ![Mandatory](../../../img/book.png)[AWS Certified Solutions Architect Study Guide with 900 Practice Test Questions, 4th Edition](https://learning-oreilly-com.ez.unisabana.edu.co/library/view/aws-certified-solutions/9781119982623/)
+
+
+![Mandatory](../../../img/book.png)[AWS Cloud Computing Concepts and Tech Analogies](https://www-oreilly-com.ez.unisabana.edu.co/library/view/aws-cloud-computing/9781804611425/)
 
 ![Mandatory](../../../img/video.png)[Skill Builder - Offer for 12 months](https://explore.skillbuilder.aws/learn/signin)
 
@@ -135,9 +141,15 @@ cloudarch_20261.md
 
 ![New](../../../img/new.png)[Working with directory buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/directory-buckets-overview.html)
 
+![New](../../../img/new.png)[My Amazon S3 bill increased....](https://docs.aws.amazon.com/AmazonS3/latest/userguide/troubleshoot-lifecycle.html#troubleshoot-lifecycle-5)
+
 ![New](../../../img/new.png)[Working with Amazon S3 Tables and table buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables.html)
 
 ![New](../../../img/new.png)[Working with S3 Vectors and vector buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors.html)
+
+![New](../../../img/new.png)[Configuring Amazon S3 Files access](https://docs.aws.amazon.com/lambda/latest/dg/configuration-filesystem-s3files.html)
+
+![Mandatory](../../../img/mandatory.png)[S3 Is Not a Filesystem](https://www.lastweekinaws.com/blog/s3-is-not-a-filesystem-but-now-theres-one-in-front-of-it/)
 
 ![Mandatory](../../../img/mandatory.png)[Uploading and copying objects using multipart upload in Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html)
 
