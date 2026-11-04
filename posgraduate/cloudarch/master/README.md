@@ -38,7 +38,7 @@ cloudarch_20261.md
 </details>
 
 
-* Enviar correo a *francisco.moreno2@unisababana.edu.co* el link del badge del AWS SAA-C03 que tiene que estar vigente a la fecha del examen final, con copia a la facilitadora. Solicitando la *exencion del examen final* solamente.
+* *Para los que ya tienen la certificacion y quieren ser eximidos del Examen Final*: Enviar correo a *francisco.moreno2@unisabana.edu.co* el link del badge del AWS SAA-C03 que tiene que estar vigente a la fecha del examen final, con copia a la facilitadora. Solicitando la *exencion del examen final* solamente.
 
 # Links Interesantes
 
