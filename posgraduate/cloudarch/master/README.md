@@ -291,6 +291,8 @@ cloudarch_20261.md
 
 [Creating tasks for ongoing replication using AWS DMS](https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Task.CDC.html)
 
+[Choosing AWS migration services and tools](https://docs.aws.amazon.com/decision-guides/latest/decision-guides/migration-on-aws-how-to-choose.html)
+
 ## Module 7 - Creating a Networking Environment
 
 ![Mandatory](../../../img/mandatory.png)[Networking Essentials](https://aws.amazon.com/getting-started/aws-networking-essentials/)
