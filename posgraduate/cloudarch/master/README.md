@@ -35,6 +35,8 @@ cloudarch_20261.md
 
 ![Mandatory](../../../img/ppt.png)[Modulo 0: Introduccion al Curso](./m0_Intro_To_Course_v2_29102026.pdf)
 
+![Mandatory](../../../img/ppt.png)[Modulo 18: Diapositivos adicionales durante el curso](./m18_Additional_Slides_v1_24112026.pdf)
+
 </details>
 
 
@@ -453,7 +455,7 @@ cloudarch_20261.md
 
 [What is Amazon MQ?](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/welcome.html)
 
-[AmazonMQ Workshop For ActiveMQ](https://catalog.us-east-1.prod.workshops.aws/workshops/0b534eb9-fdfb-49f0-8df4-ebccca71a9eb/en-US/00-prerequisites)
+[AmazonMQ Workshop For ActiveMQ](https://catalog.us-east-1.prod.workshops.aws/workshops/0b534eb9-fdfb-49f0-8df4-ebccca71a9eb/)
 
 ## Module 14 - Building Serverless Architectures and Microservices
 
