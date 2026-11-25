@@ -17,6 +17,7 @@ cloudarch_20261.md
   - [Module 12 - Caching Content](#module-12---caching-content)
   - [Module 13 - Building Decoupled Architectures](#module-13---building-decoupled-architectures)
   - [Module 14 - Building Serverless Architectures and Microservices](#module-14---building-serverless-architectures-and-microservices)
+      - [Preguntas Clase 24-Nov](#preguntas-clase-24-nov)
   - [Module 15 - Data Engineering Patterns](#module-15---data-engineering-patterns)
   - [Module 16 - Planning for Disaster](#module-16---planning-for-disaster)
   - [Module 17 - BridgingToCertification](#module-17---bridgingtocertification)
@@ -447,9 +448,9 @@ cloudarch_20261.md
 
 [Using dead-letter queues in Amazon SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html)
 
-![Mandatory](../img/mandatory.png)[Amazon SQS short and long polling](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-short-and-long-polling.html)
+![Mandatory](../../../img/mandatory.png)[Amazon SQS short and long polling](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-short-and-long-polling.html)
 
-![Mandatory](../img/mandatory.png)[Amazon SQS visibility timeout](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html)
+![Mandatory](../../../img/mandatory.png)[Amazon SQS visibility timeout](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html)
 
 [Sending mobile push notifications with Amazon SNS](https://docs.aws.amazon.com/sns/latest/dg/sns-mobile-application-as-subscriber.html#sns-user-notifications-process-overview)
 
@@ -508,6 +509,18 @@ cloudarch_20261.md
 [Create AWS service integrations for HTTP APIs in API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-aws-services.html)
 
 [API Gateway resource policy examples](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-resource-policies-examples.html)
+
+
+#### Preguntas Clase 24-Nov
+
+1. Existe un politica para que un mensaje de SQS vaya a DLQ sin importar el retention period ?
+   R:/ Si, revisar el maxReceiveCount en https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html
+
+2. Existe un DLQ para SNS ?
+   R:/ Si, revisar https://docs.aws.amazon.com/sns/latest/dg/sns-dead-letter-queues.html
+
+3. Se puede aplicar filtros o reglas en SNS ?
+   R:/ Si, revisar https://docs.aws.amazon.com/sns/latest/dg/sns-subscription-filter-policies.html
 
 ## Module 15 - Data Engineering Patterns
 
